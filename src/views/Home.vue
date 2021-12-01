@@ -7,13 +7,16 @@
                               @click.native="goToArticlesWithCategory('food')"/>
         </v-col>
         <v-col cols="3">
-          <category-thumbnail title="Culture" image-name="culture.jpg"/>
+          <category-thumbnail title="Culture" image-name="culture.jpg"
+                              @click.native="goToArticlesWithCategory('culture')"/>
         </v-col>
         <v-col cols="3">
-          <category-thumbnail title="Spot" image-name="spot2.jpg"/>
+          <category-thumbnail title="Spot" image-name="spot2.jpg"
+                              @click.native="goToArticlesWithCategory('spot')"/>
         </v-col>
         <v-col cols="3">
-          <category-thumbnail title="Activité" image-name="spot.jpg"/>
+          <category-thumbnail title="Activité" image-name="spot.jpg"
+                              @click.native="goToArticlesWithCategory('activities')"/>
         </v-col>
       </v-row>
       <v-row justify="center" align="center" class="home__scroll">
@@ -43,7 +46,7 @@
         </v-btn-toggle>
       </v-row>
       <v-row>
-        <v-col  v-for="(article, index) in articles"
+        <v-col  v-for="(article, index) in displayedArticles"
                 :key="'article_thumbnail_' + index"
                 :cols="article.cols"
         >
@@ -67,13 +70,19 @@ export default {
   },
   methods: {
     goToArticlesWithCategory: function (category) {
-      this.category = category  
+      this.category = category
       this.$vuetify.goTo('#articles')
+    }
+  },
+  computed: {
+    displayedArticles: function () {
+      if (this.category === 'all') return this.articles
+      return this.articles.filter(a => a.categories.includes(this.category))
     }
   },
   data: function() {
     return {
-      articles: [{title: 'Nutella 호떡 (Hotteok)', image: 'hotteok.jpg', cols: 4}],
+      articles: [{title: 'Nutella 호떡 (Hotteok)', image: 'hotteok.jpg', cols: 4, categories: ['food', 'spot']}],
       category: 'all'
     }
   }
