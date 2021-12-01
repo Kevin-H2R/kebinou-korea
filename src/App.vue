@@ -10,10 +10,13 @@
                 <v-icon color="grey">mdi-instagram</v-icon>
               </v-btn>
             </v-col>
-            <v-col cols="6" class="text-center">
-              <h1 class="main-title font-weight-medium">L'aventure Coréenne de Kebinou</h1>
+            <v-col :cols="$vuetify.breakpoint.mdAndUp ? 6 : 9" class="text-center">
+              <h1 class="main-title font-weight-medium"
+                  :class="!$vuetify.breakpoint.mdAndUp ? 'main-title--small' : ''">
+                L'aventure Coréenne de Kebinou
+              </h1>
             </v-col>
-            <v-col cols="3">
+            <v-col cols="3" v-if="$vuetify.breakpoint.mdAndUp">
               <v-row justify="end">
                 <v-btn text plain x-small
                        @click="$vuetify.goTo('#categories')">Categories</v-btn>
@@ -34,5 +37,8 @@
 .main-title {
   font-family: 'Lobster', cursive;
   color: #1976D2;
+  &--small {
+    font-size: medium;
+  }
 }
 </style>

@@ -1,20 +1,20 @@
 <template>
   <v-container fluid class="home">
     <v-container id="categories" class="home__section">
-      <v-row>
-        <v-col cols="3">
+      <v-row justify="center">
+        <v-col cols="12" sm="10" md="6" lg="3">
           <category-thumbnail title="Bouffe" image-name="bouffe.jpg"
                               @click.native="goToArticlesWithCategory('food')"/>
         </v-col>
-        <v-col cols="3">
+        <v-col cols="12" sm="10" md="6" lg="3">
           <category-thumbnail title="Culture" image-name="culture.jpg"
                               @click.native="goToArticlesWithCategory('culture')"/>
         </v-col>
-        <v-col cols="3">
+        <v-col cols="12" sm="10" md="6" lg="3">
           <category-thumbnail title="Spot" image-name="spot2.jpg"
                               @click.native="goToArticlesWithCategory('spot')"/>
         </v-col>
-        <v-col cols="3">
+        <v-col cols="12" sm="10" md="6" lg="3">
           <category-thumbnail title="Activité" image-name="spot.jpg"
                               @click.native="goToArticlesWithCategory('activities')"/>
         </v-col>
@@ -30,7 +30,7 @@
       </v-row>
     </v-container>
     <v-container id="articles" class="home__section">
-      <v-row>
+      <v-row style="overflow: hidden">
         <v-btn-toggle
             v-model="category"
             tile
@@ -48,7 +48,7 @@
       <v-row>
         <v-col  v-for="(article, index) in displayedArticles"
                 :key="'article_thumbnail_' + index"
-                :cols="article.cols"
+                :cols="article.cols" :sm="article.sm" :md="article.md" :lg="article.lg"
         >
           <article-thumbnail v-bind="{title: article.title, imageName: article.image}"/>
         </v-col>
@@ -82,7 +82,10 @@ export default {
   },
   data: function() {
     return {
-      articles: [{title: 'Nutella 호떡 (Hotteok)', image: 'hotteok.jpg', cols: 4, categories: ['food', 'spot']}],
+      articles: [
+          {title: 'Nutella 호떡 (Hotteok)', image: 'hotteok.jpg',
+            cols: 12, sm: 10, md: 4, lg: 2,  categories: ['food', 'spot']}
+      ],
       category: 'all'
     }
   }

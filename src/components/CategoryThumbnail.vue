@@ -1,8 +1,7 @@
 <template>
   <v-hover v-slot="{ hover }">
     <v-card hover elevation="12">
-      <v-img
-          height="600"
+      <v-img max-height="600"
           :src="image"
       >
         <v-expand-transition>
