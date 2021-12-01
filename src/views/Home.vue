@@ -2,19 +2,19 @@
   <v-container fluid class="home">
     <v-container id="categories" class="home__section">
       <v-row justify="center">
-        <v-col cols="12" sm="10" md="6" lg="3">
+        <v-col cols="6" sm="10" md="6" lg="3">
           <category-thumbnail title="Bouffe" image-name="bouffe.jpg"
                               @click.native="goToArticlesWithCategory('food')"/>
         </v-col>
-        <v-col cols="12" sm="10" md="6" lg="3">
+        <v-col cols="6" sm="10" md="6" lg="3">
           <category-thumbnail title="Culture" image-name="culture.jpg"
                               @click.native="goToArticlesWithCategory('culture')"/>
         </v-col>
-        <v-col cols="12" sm="10" md="6" lg="3">
+        <v-col cols="6" sm="10" md="6" lg="3">
           <category-thumbnail title="Spot" image-name="spot2.jpg"
                               @click.native="goToArticlesWithCategory('spot')"/>
         </v-col>
-        <v-col cols="12" sm="10" md="6" lg="3">
+        <v-col cols="6" sm="10" md="6" lg="3">
           <category-thumbnail title="Activité" image-name="spot.jpg"
                               @click.native="goToArticlesWithCategory('activities')"/>
         </v-col>
