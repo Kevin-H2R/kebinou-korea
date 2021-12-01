@@ -1,5 +1,5 @@
 <template>
-<v-card hover>
+<v-card hover :to="link">
   <v-img :src="image" height="200"
          class="white--text align-end"
          gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)">
@@ -23,6 +23,11 @@ export default {
     imageName: {
       type: String,
       required: true
+    },
+    link: {
+      type: String,
+      required: false,
+      default: '/'
     }
   },
   computed: {
@@ -33,6 +38,6 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss">
 
 </style>

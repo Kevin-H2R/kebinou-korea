@@ -65,7 +65,7 @@
                 :key="'article_thumbnail_' + index"
                 :cols="article.cols" :sm="article.sm" :md="article.md" :lg="article.lg"
         >
-          <article-thumbnail v-bind="{title: article.title, imageName: article.image}"/>
+          <article-thumbnail :title="article.title" :imageName="article.image" :link="article.link"/>
         </v-col>
       </v-row>
     </v-container>
@@ -98,7 +98,7 @@ export default {
   data: function() {
     return {
       articles: [
-          {title: 'Nutella 호떡 (Hotteok)', image: 'hotteok.jpg',
+          {title: 'Nutella 호떡 (Hotteok)', image: 'hotteok.jpg', link:'/hotteok',
             cols: 12, sm: 10, md: 4, lg: 3,  categories: ['food', 'spot']}
       ],
       category: 'all'

@@ -5,7 +5,7 @@
         <v-app-bar :class="$vuetify.breakpoint.mdAndUp ? 'px-5' : ''"  fixed color="white" elevate-on-scroll>
           <v-row align="center">
             <v-col :cols="$vuetify.breakpoint.mdAndUp ? 3 : 1">
-              <v-btn icon x-large color="error"
+              <v-btn icon :x-large="$vuetify.breakpoint.mdAndUp" color="error"
                      href="https://www.instagram.com/kebinou_korea/" target="_blank">
                 <v-icon color="grey">mdi-instagram</v-icon>
               </v-btn>
@@ -16,12 +16,18 @@
                 L'aventure Coréenne de Kebinou
               </h1>
             </v-col>
-            <v-col cols="3" v-if="$vuetify.breakpoint.mdAndUp">
+            <v-col cols="3" v-if="$vuetify.breakpoint.mdAndUp && $route.name === 'Home'">
               <v-row justify="end">
                 <v-btn text plain x-small
                        @click="$vuetify.goTo('#categories')">Categories</v-btn>
                 <v-btn text plain x-small
                        @click="$vuetify.goTo('#articles')">Tous les articles</v-btn>
+              </v-row>
+            </v-col>
+            <v-col :cols="$vuetify.breakpoint.mdAndUp ? 3 : 1" v-else-if="$route.name !== 'Home'">
+              <v-row justify="end">
+                <v-btn text plain :x-large="$vuetify.breakpoint.mdAndUp"
+                       to="/" icon><v-icon>mdi-home</v-icon></v-btn>
               </v-row>
             </v-col>
           </v-row>
