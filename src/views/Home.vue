@@ -1,9 +1,10 @@
 <template>
   <v-container fluid class="home">
-    <div id="categories" class="d-flex flex-column home__section">
+    <v-container id="categories" class="home__section">
       <v-row>
         <v-col cols="3">
-          <category-thumbnail title="Bouffe" image-name="bouffe.jpg"/>
+          <category-thumbnail title="Bouffe" image-name="bouffe.jpg"
+                              @click.native="goToArticlesWithCategory('food')"/>
         </v-col>
         <v-col cols="3">
           <category-thumbnail title="Culture" image-name="culture.jpg"/>
@@ -16,13 +17,40 @@
         </v-col>
       </v-row>
       <v-row justify="center" align="center" class="home__scroll">
-        <v-btn icon x-large @click="$vuetify.goTo('#articles')">
-          <v-icon>mdi-chevron-down</v-icon>
-        </v-btn>
+        <v-col class="text-center">
+          <v-btn x-large @click="$vuetify.goTo('#articles')" color="transparent"
+                 height="100" rounded :elevation="0" class="home__all-articles">
+            <div @click="$vuetify.goTo('#articles')" >Tous les articles</div><br/>
+            <v-icon>mdi-chevron-down</v-icon>
+          </v-btn>
+        </v-col>
       </v-row>
-    </div>
-    <div id="articles" class="d-flex flex-column home__section">
-    </div>
+    </v-container>
+    <v-container id="articles" class="home__section">
+      <v-row>
+        <v-btn-toggle
+            v-model="category"
+            tile
+            color="primary accent-3"
+            group
+            mandatory
+        >
+          <v-btn value="all">Tous</v-btn>
+          <v-btn value="food">Bouffe</v-btn>
+          <v-btn value="culture">Culture</v-btn>
+          <v-btn value="spot">Spot</v-btn>
+          <v-btn value="activities">Activités</v-btn>
+        </v-btn-toggle>
+      </v-row>
+      <v-row>
+        <v-col  v-for="(article, index) in articles"
+                :key="'article_thumbnail_' + index"
+                :cols="article.cols"
+        >
+          <article-thumbnail v-bind="{title: article.title, imageName: article.image}"/>
+        </v-col>
+      </v-row>
+    </v-container>
   </v-container>
 </template>
 
@@ -30,22 +58,47 @@
 // @ is an alias to /src
 
 import CategoryThumbnail from "../components/CategoryThumbnail";
+import ArticleThumbnail from "../components/ArticleThumnail";
 export default {
   name: 'Home',
   components: {
+    ArticleThumbnail,
     CategoryThumbnail
+  },
+  methods: {
+    goToArticlesWithCategory: function (category) {
+      this.category = category  
+      this.$vuetify.goTo('#articles')
+    }
+  },
+  data: function() {
+    return {
+      articles: [{title: 'Nutella 호떡 (Hotteok)', image: 'hotteok.jpg', cols: 4}],
+      category: 'all'
+    }
   }
 }
 </script>
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 .home {
   padding: 0;
   &__section {
-    height: 100vh;
+    min-height: 100vh;
     padding: 92px 15px 15px 15px;
   }
   &__scroll {
     margin: 0;
+  }
+  &__all-articles {
+    font-family: 'Abel', sans-serif;
+  }
+  &__all-articles:hover::before {
+    opacity: 0 !important;
+  }
+  &__all-articles > .v-btn__content {
+    display: flex;
+    flex-direction: column;
   }
 }
 </style>
