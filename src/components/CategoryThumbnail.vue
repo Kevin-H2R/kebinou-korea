@@ -5,8 +5,9 @@
           :src="image"
       >
         <v-expand-transition>
-          <div v-if="hover"
-               class="d-flex transition-fast-in-fast-out black darken-2 v-card--reveal text-h2 white--text"
+          <div v-if="$vuetify.breakpoint.smAndDown ? true : hover"
+               class="d-flex transition-fast-in-fast-out black darken-2 v-card--reveal white--text"
+               :class="$vuetify.breakpoint.smAndDown ? 'text-h4' : 'text-h2'"
                style="height: 100%;">
             {{ title }}
           </div>

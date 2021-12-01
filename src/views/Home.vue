@@ -1,6 +1,6 @@
 <template>
   <v-container fluid class="home">
-    <v-container id="categories" class="home__section">
+    <v-container id="categories" class="home__section d-flex flex-column justify-space-between">
       <v-row justify="center">
         <v-col cols="6" sm="10" md="6" lg="3">
           <category-thumbnail title="Bouffe" image-name="bouffe.jpg"
@@ -19,7 +19,7 @@
                               @click.native="goToArticlesWithCategory('activities')"/>
         </v-col>
       </v-row>
-      <v-row justify="center" align="center" class="home__scroll">
+      <v-row justify="center" align="center" class="home__scroll flex-grow-0">
         <v-col class="text-center">
           <v-btn x-large @click="$vuetify.goTo('#articles')" color="transparent"
                  height="100" rounded :elevation="0" class="home__all-articles">
@@ -37,12 +37,27 @@
             color="primary accent-3"
             group
             mandatory
+            v-if="$vuetify.breakpoint.mdAndUp"
         >
           <v-btn value="all">Tous</v-btn>
           <v-btn value="food">Bouffe</v-btn>
           <v-btn value="culture">Culture</v-btn>
           <v-btn value="spot">Spot</v-btn>
           <v-btn value="activities">Activités</v-btn>
+        </v-btn-toggle>
+        <v-btn-toggle
+            v-model="category"
+            tile
+            color="primary accent-3"
+            group
+            mandatory
+            v-else
+        >
+          <v-btn value="all">Tous</v-btn>
+          <v-btn value="food" icon><v-icon>mdi-food-fork-drink</v-icon></v-btn>
+          <v-btn value="culture" icon><v-icon>mdi-book-open-page-variant</v-icon></v-btn>
+          <v-btn value="spot" icon><v-icon>mdi-image-filter-hdr</v-icon></v-btn>
+          <v-btn value="activities" icon><v-icon>mdi-basketball</v-icon></v-btn>
         </v-btn-toggle>
       </v-row>
       <v-row>
@@ -84,7 +99,7 @@ export default {
     return {
       articles: [
           {title: 'Nutella 호떡 (Hotteok)', image: 'hotteok.jpg',
-            cols: 12, sm: 10, md: 4, lg: 2,  categories: ['food', 'spot']}
+            cols: 12, sm: 10, md: 4, lg: 3,  categories: ['food', 'spot']}
       ],
       category: 'all'
     }

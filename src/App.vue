@@ -2,15 +2,15 @@
   <div id="app">
     <v-app>
       <v-main>
-        <v-app-bar class="px-5"  fixed color="white" elevate-on-scroll>
+        <v-app-bar :class="$vuetify.breakpoint.mdAndUp ? 'px-5' : ''"  fixed color="white" elevate-on-scroll>
           <v-row align="center">
-            <v-col cols="3">
+            <v-col :cols="$vuetify.breakpoint.mdAndUp ? 3 : 1">
               <v-btn icon x-large color="error"
                      href="https://www.instagram.com/kebinou_korea/" target="_blank">
                 <v-icon color="grey">mdi-instagram</v-icon>
               </v-btn>
             </v-col>
-            <v-col :cols="$vuetify.breakpoint.mdAndUp ? 6 : 9" class="text-center">
+            <v-col :cols="$vuetify.breakpoint.mdAndUp ? 6 : 10" class="text-center">
               <h1 class="main-title font-weight-medium"
                   :class="!$vuetify.breakpoint.mdAndUp ? 'main-title--small' : ''">
                 L'aventure Coréenne de Kebinou
@@ -38,7 +38,7 @@
   font-family: 'Lobster', cursive;
   color: #1976D2;
   &--small {
-    font-size: medium;
+    font-size: larger;
   }
 }
 </style>
