@@ -20,7 +20,7 @@ const routes = [
 
 const router = new VueRouter({
   mode: 'history',
-  base: "/",
+  base: "/kebinou-korea/",
   routes
 })
 

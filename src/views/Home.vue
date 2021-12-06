@@ -99,7 +99,7 @@ export default {
     return {
       articles: [
           {title: 'Nutella 호떡 (Hotteok)', image: 'hotteok.jpg', link:'/hotteok',
-            cols: 12, sm: 10, md: 4, lg: 3,  categories: ['food', 'spot']}
+            cols: 12, sm: 10, md: 4, lg: 4,  categories: ['food', 'spot']}
       ],
       category: 'all'
     }
