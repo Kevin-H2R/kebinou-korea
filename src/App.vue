@@ -41,7 +41,7 @@
 </template>
 
 <style lang="scss">
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 .main-title {
   font-family: 'Lobster', cursive;
   color: #1976D2;

@@ -120,7 +120,7 @@ export default {
 }
 </script>
 <style lang="scss">
-@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 .home {
   padding: 0;
   &__section {

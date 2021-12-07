@@ -83,7 +83,7 @@
 </script>
 
 <style lang="scss">
-    @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+    //@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
     .article {
         font-family: 'Abel', sans-serif;
         &__title {
