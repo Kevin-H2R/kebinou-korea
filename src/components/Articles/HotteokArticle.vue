@@ -70,7 +70,15 @@
 
 <script>
     export default {
-        name: "HotteokArticle"
+        name: "HotteokArticle",
+        metaInfo: {
+          title: 'Nutella Hotteok | Kebinou',
+          meta: [{
+            vmid: 'description',
+            name: 'description',
+            content: "Apprenez-en plus sur le légendaire et délicieux Hotteok au Nutella que votre serviteur Kebinou est allé tester pour vous!"
+          }]
+        }
     }
 </script>
 

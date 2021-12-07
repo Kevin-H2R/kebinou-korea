@@ -1,9 +1,13 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import Meta from 'vue-meta'
 import Home from '../views/Home.vue'
 import HotteokArticle from "../components/Articles/HotteokArticle";
 
 Vue.use(VueRouter)
+Vue.use(Meta, {
+  refreshOnceOnNavigation: true
+})
 
 const routes = [
   {

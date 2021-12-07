@@ -106,6 +106,16 @@ export default {
       ],
       category: 'all'
     }
+  },
+  metaInfo: {
+    title: 'Kebinou',
+    meta: [{
+      vmid: 'description',
+      name: 'description',
+        content: "Le blog des aventures de Kebinou en Corée du Sud. " +
+            "Retrouvez un maximum de bons plans bouffe, culture, spot, " +
+            "activités pour votre voyage au pays du matin calme."
+      }]
   }
 }
 </script>
