@@ -2,7 +2,8 @@
 <v-card hover @click="goToArticle()">
   <v-img :src="image" height="200"
          class="white--text align-end"
-         gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)">
+         gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
+         :alt="title" >
     <v-card-title>{{ title }}</v-card-title>
   </v-img>
   <v-card-actions>

@@ -2,7 +2,7 @@
   <v-hover v-slot="{ hover }">
     <v-card hover elevation="12">
       <v-img :height="$vuetify.breakpoint.smAndDown ? 200 : 600"
-          :src="image"
+          :src="image" :alt="title"
       >
         <v-expand-transition>
           <div v-if="$vuetify.breakpoint.smAndDown ? true : hover"

@@ -6,7 +6,7 @@
                 <h1 class="article__title font-weight-light">Nutella 호떡 (Hotteok)</h1>
             </v-row>
             <v-row>
-                <v-img src="@/assets/articles/hotteok/cover.jpg" height="65vh"/>
+                <v-img src="@/assets/articles/hotteok/cover.jpg" height="65vh" alt="Hotteok au Nutella"/>
             </v-row>
         </div>
         <div class="d-flex flex-column article__content">
@@ -19,7 +19,7 @@
                     On en trouve un peu partout en Corée et particulièrement quand les températures
                     commencent à chuter. On en trouve généralement dans des stands de street foods.
                     </p>
-                    <v-img src="@/assets/articles/hotteok/stand.jpg" height="400" contain/>
+                    <v-img src="@/assets/articles/hotteok/stand.jpg" height="400" contain alt="Stand de street food"/>
                     <p>L'origine semble venir de travailleurs Chinois ayant debarqués en Corée du Sud en 1927
                     et ayant rapidement développés pleins de recette de plats peu chers afin de pouvoir les
                     vendre aux plus pauvres. L'un d'eux était le 호떡.<br><i>Je parle ici de l'origine du 호떡 qu'on
@@ -28,7 +28,7 @@
                     <p>La préparation est assez simple: Farine de blé, lait, sucre, levure pour la pâte, qui peut
                         ensuite être farçie avec un mélange de plusieurs aliments dont :
                         cassonade, miel, cacahuètes, cannelle et graines de sésame.<br>Le tout est ensuite frit.</p>
-                    <v-img src="@/assets/articles/hotteok/hotteok.jpg" height="400" contain/>
+                    <v-img src="@/assets/articles/hotteok/hotteok.jpg" height="400" contain alt="Hottoek au Nutella"/>
                     <p>Quand j'ai entendu parler du 호떡 la première fois, j'ai évidemment voulu me jetter sur
                       le premier que je croiserais, étant un <span class="font-weight-bold">graaaaaaand</span> amateur de crêpes.
                         C'est donc autour de mon quartier d'Hongdae que je rencontre le Graal un soir. Et j'avoue
@@ -44,11 +44,11 @@
                     <p>Ni une, ni deux, j'enfourche mon vélo (première fois que je re faisait du vélo en ~15ans)
                     et je pars pour 1h30 de balade au bord de la rivière Han jusqu'à ce sanctuaire du bonheur
                     (il fallait que je dépense un max de kcal avant la rencontre avec ce 호똑, avec qui je déciderai
-                    de me marier, ndlr). Et bien la promesse à été tenue, c'est du plaisir pur et dur. Chargé juste
-                    ce qu'il faut en Nutella. Je n'ai pas envie de trop spoil celles et ceux qui testeront un jours,
+                    de me marier, ndlr). Et bien la promesse a été tenue, c'est du plaisir pur et dur. Chargé juste
+                    ce qu'il faut en Nutella. Je n'ai pas envie de trop spoil celles et ceux qui testeront un jour,
                     mais on imagine très bien à quel point j'ai longuement hesité à m'installer définitevement dans
                     cette boutique.<br><i>Oui celui-là est un peu célèbre et n'est plus dans un stand mais une boutique carrément.</i></p>
-                    <v-img src="@/assets/articles/hotteok/video.gif" height="400" contain/>
+                    <v-img src="@/assets/articles/hotteok/video.gif" height="400" contain alt="Gif d'un Hotteok au Nutella"/>
                     <p>Envoyez-moi un message, taggez-moi sur vos story insta
                       (<a href="https://www.instagram.com/kebinou_korea/" target="_blank">@kebinou_korea</a>)
                       si vous allez tester un 호떡 hehe!<br> Bisous.</p>
