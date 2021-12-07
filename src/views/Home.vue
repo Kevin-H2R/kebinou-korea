@@ -65,7 +65,10 @@
                 :key="'article_thumbnail_' + index"
                 :cols="article.cols" :sm="article.sm" :md="article.md" :lg="article.lg"
         >
-          <article-thumbnail :title="article.title" :imageName="article.image" :link="article.link"/>
+          <article-thumbnail :title="article.title"
+                             :imageName="article.image"
+                             :link="article.link"
+                             :categories="article.categories"/>
         </v-col>
       </v-row>
     </v-container>
