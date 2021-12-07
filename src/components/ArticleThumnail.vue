@@ -8,11 +8,11 @@
   <v-card-actions>
     <v-chip v-for="(cat, index) in categories"
             :key="imageName + '_category_' + index"
-            color="warning" outlined disabled>
+            color="success">
       {{ convertCategory(cat) }}
     </v-chip>
     <v-spacer />
-    <v-btn plain color="primary">Lire</v-btn>
+    <v-btn text color="primary">Lire</v-btn>
   </v-card-actions>
 </v-card>
 </template>
