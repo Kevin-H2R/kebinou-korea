@@ -52,26 +52,27 @@
                     <p>Envoyez-moi un message, taggez-moi sur vos story insta
                       (<a href="https://www.instagram.com/kebinou_korea/" target="_blank">@kebinou_korea</a>)
                       si vous allez tester un 호떡 hehe!<br> Bisous.</p>
-                    <v-card>
-                        <v-card-title>Infos :</v-card-title>
-                        <v-divider></v-divider>
-                        <v-card-text class="d-flex flex-column">
-                          <div class="text-h6">Nom : <span class="article__primary-text font-weight-bold">삼맛호오떡</span></div>
-                          <div class="text-h6">Prix : <span class="article__primary-text font-weight-bold">3000₩ (~2€)</span></div>
-                          <div class="text-h6">Téléphone : <span class="article__primary-text font-weight-bold">02-2299-3396</span></div>
-                          <div class="text-h6">Naver map: <a href="http://naver.me/GgeusipV" target="_blank">Map</a></div>
-                        </v-card-text>
-                    </v-card>
                 </v-col>
             </v-row>
+          <v-row>
+            <v-divider class="mx-16 my-16"></v-divider>
+          </v-row>
+          <v-row justify="center">
+            <v-col cols="12" sm="6" md="4" lg="3">
+              <address-card v-bind="{name: '삼맛호오떡', imageName: 'hotteok.jpg',
+                        price: '3000 (~2€)', phone: '02-2299-3396', naverLink: 'http://naver.me/GgeusipV'}"/>
+            </v-col>
+          </v-row>
         </div>
     </v-container>
 </template>
 
 <script>
+    import AddressCard from "../AddressCard";
     export default {
         name: "HotteokArticle",
-        metaInfo: {
+      components: {AddressCard},
+      metaInfo: {
           title: 'Nutella Hotteok | Kebinou',
           meta: [{
             vmid: 'description',
