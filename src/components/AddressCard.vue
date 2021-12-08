@@ -1,6 +1,6 @@
 <template>
 <v-card class="address-card">
-  <v-img :src="image" height="200" class="address-card__map" 
+  <v-img :src="image" height="200" class="address-card__map"
          alt="Map showing the location of the place" @click="openMap()" />
   <v-card-title>{{ name }}</v-card-title>
   <v-divider class="mx-4"/>
@@ -20,6 +20,12 @@
       </v-row>
     </v-container>
   </v-card-text>
+  <v-divider v-if="readArticle"/>
+  <v-card-actions v-if="readArticle">
+    <v-spacer></v-spacer>
+    <v-btn text color="primary" @click="goToArticle()">Lire l'article</v-btn>
+    <v-spacer></v-spacer>
+  </v-card-actions>
 </v-card>
 </template>
 
@@ -47,10 +53,24 @@ export default {
       type: String,
       required: true
     },
+    readArticle: {
+      type: Boolean,
+      required: false,
+      default: false
+    },
+    path: {
+      type: String,
+      required: false,
+      default: "/"
+    }
   },
   methods: {
     openMap: function () {
       window.open(this.naverLink, '_blank').focus();
+    },
+    goToArticle: function () {
+      window.scrollTo(0, 0)
+      this.$router.push(this.path)
     }
   },
   computed: {

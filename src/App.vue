@@ -10,6 +10,8 @@
                        @click="$vuetify.goTo('#categories')">Categories</v-btn>
                 <v-btn text plain x-small
                        @click="$vuetify.goTo('#articles')">Tous les articles</v-btn>
+                <v-btn text plain x-small
+                       @click="$vuetify.goTo('#addresses')">Les adresses</v-btn>
               </v-row>
             </v-col>
             <v-col :cols="$vuetify.breakpoint.mdAndUp ? 3 : 1" v-else-if="$route.name !== 'Home'">

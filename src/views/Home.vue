@@ -72,6 +72,17 @@
         </v-col>
       </v-row>
     </v-container>
+    <v-container id="addresses" class="home__section">
+      <v-row class="mb-8" justify="center">
+        <h2 class="home__addresses-title">Liste résumée des diverses adresses présentent dans les articles :</h2>
+      </v-row>
+      <v-row>
+        <v-col cols="12" sm="6" md="4" lg="3"
+               v-for="(a, i) in this.addresses" :key="'address_' + i">
+          <address-card v-bind="a" :read-article="true"/>
+        </v-col>
+      </v-row>
+    </v-container>
   </v-container>
 </template>
 
@@ -80,9 +91,11 @@
 
 import CategoryThumbnail from "../components/CategoryThumbnail";
 import ArticleThumbnail from "../components/ArticleThumnail";
+import AddressCard from "../components/AddressCard";
 export default {
   name: 'Home',
   components: {
+    AddressCard,
     ArticleThumbnail,
     CategoryThumbnail
   },
@@ -103,6 +116,10 @@ export default {
       articles: [
           {title: 'Nutella 호떡 (Hotteok)', image: 'hotteok.jpg', link:'/hotteok',
             cols: 12, sm: 10, md: 4, lg: 4,  categories: ['food', 'spot']}
+      ],
+      addresses: [
+        {name: '삼맛호오떡', imageName: 'hotteok.jpg', path: "/hotteok",
+          price: '3000 (~2€)', phone: '02-2299-3396', naverLink: 'http://naver.me/GgeusipV'}
       ],
       category: 'all'
     }
@@ -139,6 +156,10 @@ export default {
   &__all-articles > .v-btn__content {
     display: flex;
     flex-direction: column;
+  }
+  &__addresses-title {
+    font-family: 'Lobster', cursive;
+    color: #1976D2;
   }
 }
 </style>
