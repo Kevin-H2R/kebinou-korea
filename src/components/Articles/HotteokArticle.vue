@@ -70,7 +70,7 @@
 <script>
     import AddressCard from "../AddressCard";
     export default {
-        name: "HotteokArticle",
+      name: "HotteokArticle",
       components: {AddressCard},
       metaInfo: {
           title: 'Nutella Hotteok | Kebinou',
