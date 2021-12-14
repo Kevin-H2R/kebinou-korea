@@ -15,18 +15,17 @@
               </v-row>
             </v-col>
             <v-col :cols="$vuetify.breakpoint.mdAndUp ? 3 : 1" v-else-if="$route.name !== 'Home'">
-              <v-row justify="start">
                 <v-btn text plain :x-large="$vuetify.breakpoint.mdAndUp"
+                       :x-small="!$vuetify.breakpoint.mdAndUp"
                        to="/" icon><v-icon>mdi-home</v-icon></v-btn>
-              </v-row>
             </v-col>
-            <v-col :cols="$vuetify.breakpoint.mdAndUp ? 6 : 8" class="text-center">
+            <v-col :cols="$vuetify.breakpoint.mdAndUp ? 6 : 7" class="text-center">
               <h1 class="main-title font-weight-medium"
-                  :class="!$vuetify.breakpoint.mdAndUp ? 'main-title--small' : ''">
+                  :class="$vuetify.breakpoint.mdAndUp ? '' : 'main-title--small'">
                 {{ $t('kebinouAdventure') }}
               </h1>
             </v-col>
-            <v-col :cols="$vuetify.breakpoint.mdAndUp ? 3: 4">
+            <v-col :cols="4">
               <v-row justify="end" align="center">
                 <language-menu />
                 <v-btn icon :x-large="$vuetify.breakpoint.mdAndUp" color="error"
@@ -62,7 +61,7 @@ export default {
   font-family: 'Lobster', cursive;
   color: #1976D2;
   &--small {
-    font-size: larger;
+    font-size: 1em;
   }
 }
 </style>
