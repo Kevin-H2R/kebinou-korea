@@ -25,7 +25,7 @@
                 {{ $t('kebinouAdventure') }}
               </h1>
             </v-col>
-            <v-col :cols="4">
+            <v-col :cols="$vuetify.breakpoint.mdAndUp ? 3 : 4">
               <v-row justify="end" align="center">
                 <language-menu />
                 <v-btn icon :x-large="$vuetify.breakpoint.mdAndUp" color="error"
