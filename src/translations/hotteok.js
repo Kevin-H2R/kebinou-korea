@@ -25,13 +25,18 @@ encounter, being a <span class="font-weight-bold">huuuuuuge</span> fan of crêpe
                     <p>Speaking of which (nice transition huh?), I heard about a legend, a myth, a rare 호떡 that would give
                     you a ticket straight to cloud 9 in business class. I give you :
                     <span class="font-weight-bold">the Nutella 호똑.</span></p>
-                    <p>Ni une, ni deux, j'enfourche mon vélo (première fois que je re faisait du vélo en ~15ans)
-                    et je pars pour 1h30 de balade au bord de la rivière Han jusqu'à ce sanctuaire du bonheur
-                    (il fallait que je dépense un max de kcal avant la rencontre avec ce 호똑, avec qui je déciderai
-                    de me marier, ndlr). Et bien la promesse a été tenue, c'est du plaisir pur et dur. Chargé juste
-                    ce qu'il faut en Nutella. Je n'ai pas envie de trop spoil celles et ceux qui testeront un jour,
-                    mais on imagine très bien à quel point j'ai longuement hesité à m'installer définitevement dans
-                    cette boutique.<br><i>Oui celui-là est un peu célèbre et n'est plus dans un stand mais une boutique carrément.</i></p>`,
+                    <p>Without waiting, I grab a Seoul city bike (first time I rode a bike in ~15 years)
+                    and I'm on for a 1h30 ride along side the Han river until this sanctuary of pleasure
+                    (I needed to use as much kcal as I could before meeting this wonderful 호똑, with whom I decided
+                     to get married since then). And well, I was not disappointed at all, it was pure pleasure.
+                     Filled with just enough Nutella, cooked perfectly, I am in paradise.
+                      I don't want to spoil you too much so I'll stop my description right here but I am sure you guys can,
+                      imagine easily how incredible this is, so come try it fast!<br>
+                      <i>By the way, this one is not a street food stand as I mentionned earlier. It got so famous
+                      that it has its own little shop now.</i></p>`,
+        hotteok4: `<p>If you ever go there, send me a message or tag me in your insta story
+                      (<a href="https://www.instagram.com/kebinou_korea/" target="_blank">@kebinou_korea</a>).
+                      Let's spread the love for 호떡 hehe!<br> Bisous.</p>`
     },
     fr: {
         hotteok1: `<p>Hop hop hop! On arrête de baver sur son clavier ou sur 
@@ -67,7 +72,11 @@ trouve généralement dans des stands de street foods. </p>`,
                     de me marier, ndlr). Et bien la promesse a été tenue, c'est du plaisir pur et dur. Chargé juste
                     ce qu'il faut en Nutella. Je n'ai pas envie de trop spoil celles et ceux qui testeront un jour,
                     mais on imagine très bien à quel point j'ai longuement hesité à m'installer définitevement dans
-                    cette boutique.<br><i>Oui celui-là est un peu célèbre et n'est plus dans un stand mais une boutique carrément.</i></p>`,
+                    cette boutique.<br><i>Oui celui-là est devenu tellement célèbre qu'on ne le trouve pas dans un stand
+                    de street food comme je l'avais précisé avant, mais dans sa propre petite boutique.</i></p>`,
+        hotteok4: `<p>Si vous allez le tester, envoyez-moi un message et taggez-moi sur vos story insta
+                      (<a href="https://www.instagram.com/kebinou_korea/" target="_blank">@kebinou_korea</a>).
+                      Partagons cette nouvelle religion du 호떡 hehe!<br> Bisous.</p>`
     }
 }
 

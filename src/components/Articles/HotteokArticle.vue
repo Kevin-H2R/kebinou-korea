@@ -16,11 +16,9 @@
                   <v-img src="@/assets/articles/hotteok/stand.jpg" height="400" contain alt="Stand de street food"/>
                   <span v-html="$t('hotteok2')"></span>
                     <v-img src="@/assets/articles/hotteok/hotteok.jpg" height="400" contain alt="Hottoek au Nutella"/>
-
+                  <span v-html="$t('hotteok3')"></span>
                     <v-img src="@/assets/articles/hotteok/video.gif" height="400" contain alt="Gif d'un Hotteok au Nutella"/>
-                    <p>Envoyez-moi un message, taggez-moi sur vos story insta
-                      (<a href="https://www.instagram.com/kebinou_korea/" target="_blank">@kebinou_korea</a>)
-                      si vous allez tester un 호떡 hehe!<br> Bisous.</p>
+                  <span v-html="$t('hotteok4')"></span>
                 </v-col>
             </v-row>
           <v-row>
