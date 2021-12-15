@@ -83,7 +83,7 @@
         </v-col>
       </v-row>
     </v-container>
-    <about-me id="infos" class="home__section" />
+    <about-me id="infos" class="home__section" v-show="false"/>
   </v-container>
 </template>
 
