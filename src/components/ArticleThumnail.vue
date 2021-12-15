@@ -48,9 +48,9 @@ export default {
   },
   methods: {
     convertCategory: function (category) {
-      if (category === 'food') return "Bouffe"
+      if (category === 'food') return this.$t('food')
       if (category === 'culture') return "Culture"
-      if (category === 'activities') return "Activités"
+      if (category === 'activities') return this.$t('activities')
       return "Spot"
     },
     goToArticle: function () {

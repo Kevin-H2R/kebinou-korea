@@ -40,10 +40,10 @@
             v-if="$vuetify.breakpoint.mdAndUp"
         >
           <v-btn value="all">Tous</v-btn>
-          <v-btn value="food">Bouffe</v-btn>
+          <v-btn value="food">{{ $t('food') }}</v-btn>
           <v-btn value="culture">Culture</v-btn>
           <v-btn value="spot">Spot</v-btn>
-          <v-btn value="activities">Activités</v-btn>
+          <v-btn value="activities">{{ $t('activities') }}</v-btn>
         </v-btn-toggle>
         <v-btn-toggle
             v-model="category"
