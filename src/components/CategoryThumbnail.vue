@@ -9,7 +9,7 @@
                class="d-flex transition-fast-in-fast-out black darken-5 v-card--reveal white--text"
                :class="$vuetify.breakpoint.smAndDown ? 'text-h4' : 'text-h2'"
                style="height: 100%;">
-            {{ title }}
+            {{ $t(title) }}
           </div>
         </v-expand-transition>
       </v-img>

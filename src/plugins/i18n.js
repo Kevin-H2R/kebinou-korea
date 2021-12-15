@@ -9,6 +9,8 @@ const messages = {
         allArticles: "All articles",
         addresses: "Addresses",
         kebinouAdventure: "Kebinou's Korean Adventure",
+        food: "Food",
+        activities: "Activities",
         ...hotteokMessages.en,
     },
     fr: {
@@ -16,6 +18,8 @@ const messages = {
         allArticles: "Tous les articles",
         addresses: "Les Adresses",
         kebinouAdventure: "L'aventure Coréenne de Kebinou",
+        food: "Bouffe",
+        activities: "Activités",
         ...hotteokMessages.fr,
     },
 }

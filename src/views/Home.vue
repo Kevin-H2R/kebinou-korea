@@ -3,7 +3,7 @@
     <v-container id="categories" class="home__section d-flex flex-column justify-space-between">
       <v-row justify="center">
         <v-col cols="6" sm="10" md="6" lg="3">
-          <category-thumbnail title="Bouffe" image-name="bouffe.jpg"
+          <category-thumbnail title="food" image-name="bouffe.jpg"
                               @click.native="goToArticlesWithCategory('food')"/>
         </v-col>
         <v-col cols="6" sm="10" md="6" lg="3">
@@ -15,7 +15,7 @@
                               @click.native="goToArticlesWithCategory('spot')"/>
         </v-col>
         <v-col cols="6" sm="10" md="6" lg="3">
-          <category-thumbnail title="Activité" image-name="spot.jpg"
+          <category-thumbnail title="activities" image-name="spot.jpg"
                               @click.native="goToArticlesWithCategory('activities')"/>
         </v-col>
       </v-row>
@@ -23,7 +23,7 @@
         <v-col class="text-center">
           <v-btn x-large @click="$vuetify.goTo('#articles')" color="transparent"
                  height="100" rounded :elevation="0" class="home__all-articles">
-            <div @click="$vuetify.goTo('#articles')" >Tous les articles</div><br/>
+            <div @click="$vuetify.goTo('#articles')" >{{ $t('allArticles') }}</div><br/>
             <v-icon>mdi-chevron-down</v-icon>
           </v-btn>
         </v-col>
@@ -83,6 +83,7 @@
         </v-col>
       </v-row>
     </v-container>
+    <about-me id="infos" class="home__section" />
   </v-container>
 </template>
 
@@ -92,9 +93,11 @@
 import CategoryThumbnail from "../components/CategoryThumbnail";
 import ArticleThumbnail from "../components/ArticleThumnail";
 import AddressCard from "../components/AddressCard";
+import AboutMe from "../components/AboutMe";
 export default {
   name: 'Home',
   components: {
+    AboutMe,
     AddressCard,
     ArticleThumbnail,
     CategoryThumbnail
