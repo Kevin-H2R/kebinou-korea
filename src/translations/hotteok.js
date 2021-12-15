@@ -36,7 +36,9 @@ encounter, being a <span class="font-weight-bold">huuuuuuge</span> fan of crêpe
                       that it has its own little shop now.</i></p>`,
         hotteok4: `<p>If you ever go there, send me a message or tag me in your insta story
                       (<a href="https://www.instagram.com/kebinou_korea/" target="_blank">@kebinou_korea</a>).
-                      Let's spread the love for 호떡 hehe!<br> Bisous.</p>`
+                      Let's spread the love for 호떡 hehe!<br> Bisous.</p>`,
+        streetFoodCaption: `Street food stand during a cold winter night`,
+        hotteokCaption: `Nutella Hotteok, ready to be devourished 😈`,
     },
     fr: {
         hotteok1: `<p>Hop hop hop! On arrête de baver sur son clavier ou sur 
@@ -76,7 +78,9 @@ trouve généralement dans des stands de street foods. </p>`,
                     de street food comme je l'avais précisé avant, mais dans sa propre petite boutique.</i></p>`,
         hotteok4: `<p>Si vous allez le tester, envoyez-moi un message et taggez-moi sur vos story insta
                       (<a href="https://www.instagram.com/kebinou_korea/" target="_blank">@kebinou_korea</a>).
-                      Partagons cette nouvelle religion du 호떡 hehe!<br> Bisous.</p>`
+                      Partagons cette nouvelle religion du 호떡 hehe!<br> Bisous.</p>`,
+        streetFoodCaption: `Stand de street food dans une nuit d'hiver`,
+        hotteokCaption: `Hotteok au Nutella tout beau tout chaud 😈`,
     }
 }
 
