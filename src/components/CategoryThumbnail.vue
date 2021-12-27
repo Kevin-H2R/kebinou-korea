@@ -1,7 +1,7 @@
 <template>
   <v-hover v-slot="{ hover }">
     <v-card hover elevation="12">
-      <v-img :height="$vuetify.breakpoint.smAndDown ? 200 : 600"
+      <v-img :height="$vuetify.breakpoint.smAndDown ? 200 : 400"
           :src="image" :alt="title"
       >
         <v-expand-transition>

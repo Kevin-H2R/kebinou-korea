@@ -1,6 +1,20 @@
 <template>
   <v-container fluid class="home">
-    <v-container id="categories" class="home__section d-flex flex-column justify-space-between">
+    <v-container id="categories" class="home__section d-flex flex-column ">
+      <v-row class="home__headline" justify="center">
+        <v-col class="" cols="12" sm="10" md="6">
+          <div class="text-h4 font-weight-light">Coucou ! Je m'appelle Kevin (aka Kebinou) je suis ingénieur informatique en Corée du Sud.</div>
+          <div class="text-small font-weight-light my-10">
+            J'aime les choses simples, ergonimiques, la patate douce et les citations d'OSS 117.<br/>
+            J'ai fais ce blog pour répertorier les diverses choses que j'ai trouvé intéressantes à faire / déguster au pays du matin calme. <br/>
+            <span class="font-weight-bold">Voyageons ensemble pour quelques minutes !</span></div>
+        </v-col>
+        <v-col cols="12" sm="10" md="4" class="text-center">
+          <v-avatar width="150" height="150">
+            <v-img src="@/assets/portrait1.jpg"/>
+          </v-avatar>
+        </v-col>
+      </v-row>
       <v-row justify="center">
         <v-col cols="6" sm="10" md="6" lg="3">
           <category-thumbnail title="food" image-name="bouffe.jpg"
@@ -140,7 +154,6 @@ export default {
 }
 </script>
 <style lang="scss">
-//@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 .home {
   padding: 0;
   &__section {
@@ -153,6 +166,11 @@ export default {
   &__all-articles {
     font-family: 'Abel', sans-serif;
   }
+
+  &__headline {
+    font-family: 'Abel', sans-serif;
+    color: #3d3d3d;
+  }
   &__all-articles:hover::before {
     opacity: 0 !important;
   }
@@ -164,5 +182,9 @@ export default {
     font-family: 'Lobster', cursive;
     color: #1976D2;
   }
+}
+
+.text-small {
+  font-size: 1em;
 }
 </style>
