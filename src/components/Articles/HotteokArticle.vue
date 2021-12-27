@@ -54,23 +54,5 @@
 </script>
 
 <style lang="scss">
-    //@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
-    .article {
-        font-family: 'Abel', sans-serif;
-        &__title {
-            font-size: 4em;
-        }
-        &__content {
-            font-size: 1.5em;
-            font-weight: lighter;
-            letter-spacing: 0.1em;
-            line-height: 2.5em;
-        }
-        p {
-            margin: 100px 0;
-        }
-      &__primary-text {
-        color: #1976D2;
-      }
-    }
+@import "@/scss/article.scss";
 </style>

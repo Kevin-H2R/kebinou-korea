@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueI18n from "vue-i18n";
 import hotteokMessages from "../translations/hotteok";
+import mbcMessages from "../translations/mbc";
 Vue.use(VueI18n)
 
 const messages = {
@@ -17,6 +18,7 @@ const messages = {
             I made this blog to list all the interesting things to do / eat in the Land of Morning Calm.<br/>
             <span class="font-weight-bold">Let's travel together for a while !</span></div>`,
         ...hotteokMessages.en,
+        ...mbcMessages.en,
     },
     fr: {
         categories: "Catégories",
@@ -31,6 +33,7 @@ const messages = {
             J'ai fais ce blog pour répertorier les diverses choses que j'ai trouvé intéressantes à faire / déguster au pays du matin calme. <br/>
             <span class="font-weight-bold">Voyageons ensemble pour quelques minutes !</span></div>`,
         ...hotteokMessages.fr,
+        ...mbcMessages.fr,
     },
 }
 
