@@ -9,5 +9,10 @@ export const routes = [
         path: '/hotteok',
         name: 'Hotteok',
         component: () => import('../components/Articles/HotteokArticle')
-    }
+    },
+    {
+        path: '/tv-show',
+        name: 'TVShow',
+        component: () => import('../components/Articles/MBCArticle')
+    },
 ]
