@@ -1,14 +1,14 @@
 <template>
   <v-container fluid class="home">
-    <v-container id="categories" class="home__section d-flex flex-column ">
-      <v-row class="home__headline" justify="center">
-        <v-col cols="12" sm="10" md="6">
-          <div v-html="$t('introduction')"></div>
-        </v-col>
-        <v-col cols="12" sm="10" md="4" class="text-center">
+    <v-container id="categories" class="home__section d-flex flex-column">
+      <v-row class="home__headline mt-10" justify="center">
+        <v-col cols="12" sm="2" md="2" class="text-right">
           <v-avatar width="150" height="150">
             <v-img src="@/assets/portrait1.jpg" alt="C'est ma tete"/>
           </v-avatar>
+        </v-col>
+        <v-col cols="12" sm="10" md="6">
+          <div v-html="$t('introduction')"></div>
         </v-col>
       </v-row>
       <v-row justify="center">
