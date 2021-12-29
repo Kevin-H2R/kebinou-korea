@@ -4,7 +4,7 @@ const mbcMessages = {
         mbc2: ``,
     },
     fr: {
-        mbc1: `Tourner un TV show très connu et qui passe sur Netflix !`,
+        mbc1: `Tourner pour la télé Coréenne et Netflix !`,
         mbc2: ``,
     }
 }

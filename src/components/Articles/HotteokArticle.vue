@@ -5,6 +5,7 @@
             <v-row justify="center" align="center">
                 <h1 class="article__title font-weight-light">Nutella 호떡 (Hotteok)</h1>
             </v-row>
+            <v-row justify="center"><span class="text-caption">2021-11-22</span></v-row>
             <v-row>
                 <v-img src="@/assets/articles/hotteok/cover.jpg" height="65vh" alt="Hotteok au Nutella"/>
             </v-row>
@@ -22,6 +23,7 @@
                   <v-img src="@/assets/articles/hotteok/video.gif" height="400" contain alt="Gif d'un Hotteok au Nutella"/>
                   <div class="text-center"><i class="text-caption">No comment 🤤</i></div>
                   <span v-html="$t('hotteok4')"></span>
+                  <span class="text-caption">2021-11-22</span>
                 </v-col>
             </v-row>
           <v-row>

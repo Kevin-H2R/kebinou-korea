@@ -5,6 +5,7 @@
       <v-row justify="center" align="center">
         <h1 class="article__title font-weight-light">{{ $t('mbc1') }}</h1>
       </v-row>
+      <v-row justify="center"><span class="text-caption">2021-12-29</span></v-row>
       <v-row>
         <v-img src="@/assets/articles/hotteok/cover.jpg" height="65vh" alt="Hotteok au Nutella"/>
       </v-row>
@@ -98,6 +99,7 @@
               (<a href="https://www.instagram.com/kebinou_korea/" target="_blank">@kebinou_korea</a>).
               Ca me fera énormément plaisir ❤</p>
 <!--          </span>-->
+        <span class="text-caption">2021-11-22</span>
         </v-col>
       </v-row>
       <v-row>

@@ -5,6 +5,7 @@
          gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
          :alt="title" >
     <v-card-title>{{ title }}</v-card-title>
+    <v-card-subtitle class="text-caption">{{ date }}</v-card-subtitle>
   </v-img>
   <v-card-actions>
     <v-chip v-for="(cat, index) in categories"
@@ -39,6 +40,10 @@ export default {
       type: Array,
       required: false,
       default: () => []
+    },
+    date: {
+      type: String,
+      required: true
     }
   },
   computed: {
