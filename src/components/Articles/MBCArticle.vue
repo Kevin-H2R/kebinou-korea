@@ -83,7 +83,7 @@
               Si vous avez envie de voir l'épisode, il va vous falloir un VPN et Netflix :<br/>
               - Se caler en Corée du Sud avec votre VPN<br/>
               - Chercher les termes 'Welcome first time' ou directement '어서와 한국은 처음이지'
-              (<v-btn color="primary" icon @click="navigator.clipboard.writeText('어서와 한국은 처음이지')"><v-icon>mdi-content-copy</v-icon></v-btn>)
+              (<v-btn color="primary" icon @click="copyToClipBoard()"><v-icon>mdi-content-copy</v-icon></v-btn>)
               si vous avez un clavier Coréen (ou le copier depuis ce billet 🤭)<br/>
               - Episode 40 de la saison 2021, date exacte : 2021-10-07<br/>
               - La première partie est sur un Américain, je suis présenet dans l'intro et en deuxième partie d'épisode<br/>
@@ -120,6 +120,11 @@ import AddressCard from "../AddressCard";
 export default {
   name: "mbc-article",
   components: {AddressCard},
+  methods: {
+    copyToClipBoard() {
+      navigator.clipboard.writeText('어서와 한국은 처음이지')
+    }
+  },
   metaInfo: {
     title: 'Faire un TV show célèbre en Corée | Kebinou',
     meta: [{
