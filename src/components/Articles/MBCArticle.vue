@@ -7,7 +7,7 @@
       </v-row>
       <v-row justify="center"><span class="text-caption">2021-12-29</span></v-row>
       <v-row>
-        <v-img src="@/assets/articles/hotteok/cover.jpg" height="65vh" alt="Hotteok au Nutella"/>
+        <v-img src="@/assets/articles/mbc/cover.jpg" :aspect-ratio="16/9" contain height="65vh" alt="MBC & Netflix cover image"/>
       </v-row>
     </div>
     <div class="d-flex flex-column article__content">
@@ -16,7 +16,8 @@
 <!--          <span v-html="$t('mbc2')">-->
             <p>Eh oui, j'ai eu l'IMMENSE opportunité de pouvoir participer à une émission télévisée produite par MBC
               (l'équivalent d'un Canal+ chez nous) et diffusée sur la chaine MBC Every1 et sur Netflix.<br/>
-              L'émission s'appelle "어서와 한국은 처음이지 ?" (que l'on pourrait traduire par : "Bienvenue ! Première fois en Corée ?").
+              L'émission s'appelle <span class="font-weight-regular">"어서와 한국은 처음이지 ?"</span>
+              (que l'on pourrait traduire par : "Bienvenue ! Première fois en Corée ?").<br/>
               Le principe de base est le suivant : l'émission suit un étranger fraichement arrivé en Corée,
               la production fait venir 2-3 amis de la personne et ils vont découvrir ensemble un ou plusieurs aspects de la
               culture Coréenne : nourriture, coutumes, traditions, musique, etc...
@@ -32,8 +33,8 @@
             (d'autant plus qu'une quatorzaine était obligatoire).<br/> La production a donc changé
             légèrement le principe de son émission pour suivre uniquement le seul étranger présent.</p>
 <!--          </span>-->
-          <v-img src="@/assets/articles/hotteok/stand.jpg" height="400" contain alt="Stand de street food"/>
-          <div class="text-center"><i class="text-caption">{{ $t('streetFoodCaption') }}</i></div>
+          <v-img src="@/assets/articles/mbc/welcome.jpg" height="400" contain alt="Logo Welcome first time in Korea"/>
+          <div class="text-center"><i class="text-caption">Affiche de l'émission</i></div>
 <!--          <span v-html="$t('mbc3')">-->
             <p>Je suis donc fraichement arrivé en Corée, ca fait à-peu-près 1 mois que je suis à Séoul et que j'ai commencé à
               bosser.<br/> Un jour je reçois un message assez long, en full-Coréen sur mon insta (alors doté du timide nombre d'environ
@@ -50,8 +51,8 @@
               et enfait moi non plus.</p>
             <p></p>
 <!--          </span>-->
-          <v-img src="@/assets/articles/hotteok/hotteok.jpg" height="400" contain alt="Hottoek au Nutella"/>
-          <div class="text-center"><i class="text-caption">{{ $t('hotteokCaption') }}</i></div>
+          <v-img src="@/assets/articles/mbc/wtf.gif" height="400" contain alt="WTF gif"/>
+          <div class="text-center"><i class="text-caption">A peu près ma réaction</i></div>
 <!--          <span v-html="$t('mbc4')">-->
             <p>"L'opportunité est prompte à s'enfuir, mais longue à revenir", cette très ancienne citation de Hazrat Ali résonne
               énormément avec moi depuis que je suis à Séoul.<br/> Ni une, ni deux je réponds que je suis extrêmement intéressé et
@@ -61,9 +62,10 @@
               en même temps dans la salle de réunion, producteur, réalisateur, staff technique. Ils sont tous très sympas,
               souriants, peu parle anglais mais l'humeur est légère et je suis à l'aise rapidement.<br/>
               Le but de cet entretien est de savoir concrètement qu'est ce que je fou en Corée, pourquoi et comment j'ai
-              atterris ici.<br/> Par contre le tout était filmé (et pas sur mon bon profil 😭 !). Ca se passe nickel et ils
-              sont obligé de me mettre dehors à un moment donné parce que je raconte trop ma vie; qu'il est presque 21h.
-              et qu'ils doivent encore bosser derrière (les pauvres, force à eux).<br/>
+              atterris ici.<br/> Par contre le tout était filmé (et pas sur mon bon profil 😭 !), j'ai demandé moi aussi
+              si je pouvais me filmer avec ma propre caméra, histoire de vous faire partager ça, mais il m'ont dit non :/.
+              L'entretien se passe nickel et ils sont obligé de me mettre dehors à un moment donné parce que
+              je raconte trop ma vie; qu'il est presque 21h et qu'ils doivent encore bosser derrière (les pauvres, force à eux).<br/>
               Pas de conclusion à ce moment là, ils devraient me recontacter dans les jours à venir.</p>
             <p>J'étais déjà hyper content d'être arrivé jusqu'ici et je n'attendais pas de réponse pour être honnête,
               je n'ai pas le visage hyper symétrique, sur le spectre introverti/extraverti je suis plutôt côté introverti :<br/>
