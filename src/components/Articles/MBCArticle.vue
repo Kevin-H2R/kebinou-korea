@@ -71,8 +71,8 @@
               je n'ai pas le visage hyper symétrique, sur le spectre introverti/extraverti je suis plutôt côté introverti :<br/>
               <span class="font-weight-bold">Je ne pense pas être un bon "match" pour faire de la télé.</span></p>
 <!--          </span>-->
-          <v-img src="@/assets/articles/hotteok/video.gif" height="400" contain alt="Gif d'un Hotteok au Nutella"/>
-          <div class="text-center"><i class="text-caption">No comment 🤤</i></div>
+          <v-img src="@/assets/articles/mbc/mbclobby.jpg" height="400" contain alt="Lobby du MBC Dream Center"/>
+          <div class="text-center"><i class="text-caption">Lobby du MBC Dream Center</i></div>
 <!--          <span v-html="$t('hotteok4')">-->
             <p>Et pourtant ! Après quelques jours / semaines, mon contact chez MBC me confirme que tout est bon de leur
               côté et que je vais pouvoir tourner l'épisode dans les jours à venir !<br/> Quelle chance, je n'en reviens pas.
