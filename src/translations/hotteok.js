@@ -1,14 +1,14 @@
 const hotteokMessages = {
     en: {
         hotteok1: `<p>Hold up ! Stop drooling on your keyboard or on your mobile phone and read
- this article that Kebinou wrote for you on the legendary Nutella 호똑 (Hotteok).</p>
-<p>First of all, what is a 호똑? It's a desert, that we could compare to a pancake filled
+ this article that Kebinou wrote for you on the legendary Nutella 호떡 (Hotteok).</p>
+<p>First of all, what is a 호떡? It's a desert, that we could compare to a pancake filled
 with a special mixture. You can find them everywhere in South Korea but especially when
 the temperature starts to fall. You can usually find them in street food stands.</p>`,
-        hotteok2: `<p>The origin of 호똑 seems to be coming from Chinese workers who arrived
+        hotteok2: `<p>The origin of 호떡 seems to be coming from Chinese workers who arrived
 in South korea in 1927. They developed a lot of receipe for very cheap dishes in order for
-poor people to afford it. One of those dishes was 호똑.<br/><i>Here I am talking about the origin
-of the 호똑 we can find nowadays everywhere in South Korea. It seems that the real 호똑 was created
+poor people to afford it. One of those dishes was 호떡.<br/><i>Here I am talking about the origin
+of the 호떡 we can find nowadays everywhere in South Korea. It seems that the real 호떡 was created
 way earlier, around the end of the 19th century.</i></p>
 <p>Preparation is quite easy: Flour, milk, surgar, baking powder for the dough, which can then
 be filled with a mix of: brown sugar, honey, peanuts, cinnamon, sesame seeds.<br/>The whole
@@ -24,10 +24,10 @@ encounter, being a <span class="font-weight-bold">huuuuuuge</span> fan of crêpe
                         than the original 호떡, you might pay a little more.</p>
                     <p>Speaking of which (nice transition huh?), I heard about a legend, a myth, a rare 호떡 that would give
                     you a ticket straight to cloud 9 in business class. I give you :
-                    <span class="font-weight-bold">the Nutella 호똑.</span></p>
+                    <span class="font-weight-bold">the Nutella 호떡.</span></p>
                     <p>Without waiting, I grab a Seoul city bike (first time I rode a bike in ~15 years)
                     and I'm on for a 1h30 ride along side the Han river until this sanctuary of pleasure
-                    (I needed to use as much kcal as I could before meeting this wonderful 호똑, with whom I decided
+                    (I needed to use as much kcal as I could before meeting this wonderful 호떡, with whom I decided
                      to get married since then). And well, I was not disappointed at all, it was pure pleasure.
                      Filled with just enough Nutella, cooked perfectly, I am in paradise.
                       I don't want to spoil you too much so I'll stop my description right here but I am sure you guys can,
@@ -43,7 +43,7 @@ encounter, being a <span class="font-weight-bold">huuuuuuge</span> fan of crêpe
     fr: {
         hotteok1: `<p>Hop hop hop! On arrête de baver sur son clavier ou sur 
 son écran de téléphone et on lit les infos que Kebinou est allé chercher sur 
-ce legendaire 호똑 (Hotteok) au Nutella.</p> <p>D'arbord, c'est quoi un 호떡 
+ce legendaire 호떡 (Hotteok) au Nutella.</p> <p>D'arbord, c'est quoi un 호떡 
 (Hotteok) ? Et bien je vais te le dire petit gourmand! C'est un dessert, 
 que l'on peut comparer à une crêpe fourée. On en trouve un peu partout en Corée 
 et particulièrement quand les températures commencent à chuter. On en 
@@ -67,10 +67,10 @@ trouve généralement dans des stands de street foods. </p>`,
                         호떡 avec un goût différent de l'original.</p>
                     <p>En parlant de ça (quelle transition), j'avais justement entendu parler d'une légende,
                     d'un mythe, un 호떡 rare qui donnerait un ticket allé-simple pour le paradis en classe business. J'ai nommé :
-                    <span class="font-weight-bold">le 호똑 au Nutella.</span></p>
+                    <span class="font-weight-bold">le 호떡 au Nutella.</span></p>
                     <p>Ni une, ni deux, j'enfourche mon vélo (première fois que je re faisait du vélo en ~15ans)
                     et je pars pour 1h30 de balade au bord de la rivière Han jusqu'à ce sanctuaire du bonheur
-                    (il fallait que je dépense un max de kcal avant la rencontre avec ce 호똑, avec qui je déciderai
+                    (il fallait que je dépense un max de kcal avant la rencontre avec ce 호떡, avec qui je déciderai
                     de me marier, ndlr). Et bien la promesse a été tenue, c'est du plaisir pur et dur. Chargé juste
                     ce qu'il faut en Nutella. Je n'ai pas envie de trop spoil celles et ceux qui testeront un jour,
                     mais on imagine très bien à quel point j'ai longuement hesité à m'installer définitevement dans
