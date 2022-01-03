@@ -70,6 +70,10 @@ const mbcMessages = {
           <p>Faite moi vos retours les plus honnête sur mon insta si vous avez vu l'épisode :
             (<a href="https://www.instagram.com/kebinou_korea/" target="_blank">@kebinou_korea</a>).
             Ca me fera énormément plaisir ❤. Bisous.</p>`,
+        captionPoster: 'Poster of the show',
+        captionReaction: 'Approximately my reaction',
+        captionLobby: 'MBC Dream Center lobby',
+        captionNetflix: 'Thumbnail of the TV Show on Netflix',
     },
     fr: {
         mbc1: `Tourner pour la télé Coréenne et Netflix !`,
@@ -142,6 +146,10 @@ const mbcMessages = {
           <p>Faite moi vos retours les plus honnête sur mon insta si vous avez vu l'épisode :
             (<a href="https://www.instagram.com/kebinou_korea/" target="_blank">@kebinou_korea</a>).
             Ca me fera énormément plaisir ❤. Bisous.</p>`,
+        captionPoster: 'Affiche de l\'émission',
+        captionReaction: 'A peu près ma réaction',
+        captionLobby: 'Lobby du MBC Dream Center',
+        captionNetflix: 'Vignette de l\'épisode sur Netflix',
     }
 }
 

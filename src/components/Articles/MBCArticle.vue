@@ -13,23 +13,28 @@
     <div class="d-flex flex-column article__content">
       <v-row justify="center">
         <v-col cols="12" sm="10" md="8" lg="6">
-                    <span v-html="$t('mbc2')"/>
+
+          <span v-html="$t('mbc2')"/>
+
           <v-img src="@/assets/articles/mbc/welcome.jpg" height="400" contain alt="Logo Welcome first time in Korea"/>
-          <div class="text-center"><i class="text-caption">Affiche de l'émission</i></div>
-                    <span v-html="$t('mbc3')"/>
+          <div class="text-center"><i class="text-caption">{{ $t('captionPoster') }}</i></div>
+
+          <span v-html="$t('mbc3')"/>
+
           <v-img src="@/assets/articles/mbc/wtf.gif" height="400" contain alt="WTF gif"/>
-          <div class="text-center"><i class="text-caption">A peu près ma réaction</i></div>
-                    <span v-html="$t('mbc4')"/>
+          <div class="text-center"><i class="text-caption">{{ $t('captionReaction') }}</i></div>
+
+          <span v-html="$t('mbc4')"/>
 
           <v-img src="@/assets/articles/mbc/mbclobby.jpg" height="400" contain alt="Lobby du MBC Dream Center"/>
-          <div class="text-center"><i class="text-caption">Lobby du MBC Dream Center</i></div>
+          <div class="text-center"><i class="text-caption">{{ $t('captionLobby') }}</i></div>
 
           <span v-html="$t('mbc5')"/>
           (<v-btn color="primary" icon @click="copyToClipBoard()"><v-icon>mdi-content-copy</v-icon></v-btn>)
           <span v-html="$t('mbc5_2')"/>
 
           <v-img src="@/assets/articles/mbc/netflix-thumbnail.jpg" height="400" contain alt="Vignette du tv show sur Netflix"/>
-          <div class="text-center"><i class="text-caption">Vignette de l'épisode sur Netflix</i></div>
+          <div class="text-center"><i class="text-caption">{{ $t('captionNetflix') }}</i></div>
 
           <span v-html="$t('mbc6')"/>
 
