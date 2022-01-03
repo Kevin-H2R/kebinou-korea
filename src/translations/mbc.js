@@ -1,36 +1,34 @@
 const mbcMessages = {
     en : {
         mbc1: `Attendee in a famous TV & Netflix show!`,
-        mbc2: `<p>Eh oui, j'ai eu l'IMMENSE opportunité de pouvoir participer à une émission télévisée produite par MBC
-            (l'équivalent d'un Canal+ chez nous) et diffusée sur la chaine MBC Every1 et sur Netflix.<br/>
-            L'émission s'appelle <span class="font-weight-regular">"어서와 한국은 처음이지 ?"</span>
-            (que l'on pourrait traduire par : "Bienvenue ! Première fois en Corée ?").<br/>
-            Le principe de base est le suivant : l'émission suit un étranger fraichement arrivé en Corée,
-            la production fait venir 2-3 amis de la personne et ils vont découvrir ensemble un ou plusieurs aspects de la
-            culture Coréenne : nourriture, coutumes, traditions, musique, etc...
-          </p>
-          <p>Le problème étant que l'année durant laquelle je suis arrivée en Corée, le monde était bouleversé par
-            la crise du coronavirus.<br/> Et, pour une bribe de contexte, la Corée était l'un des pays qui gérait le mieux
-            l'épidémie à ce moment, alors que la France était plutôt dans la tranche des pays en difficulté.<br/>
-            La République Asiatique a donc complètement restreint l'accès à son territoire aux Français à un moment
-            donné, puis avait autorisé une poignée de personne seulement et c'est à ce moment que j'ai pu m'y rendre
-            (oui j'ai eu le cul bordé de nouille 🍜 comme dirait mon père).</p>
-          <p>Ceci étant dit, impossible pour MBC de faire venir 2-3 personnes de l'étranger pour 1-2 jours de tournage
-            (d'autant plus qu'une quatorzaine était obligatoire).<br/> La production a donc changé
-            légèrement le principe de son émission pour suivre uniquement le seul étranger présent.</p>`,
-        mbc3: `<p>Je suis donc fraichement arrivé en Corée, ca fait à-peu-près 1 mois que je suis à Séoul et que j'ai commencé à
-            bosser.<br/> Un jour je reçois un message assez long, en full-Coréen sur mon insta (alors doté du timide nombre d'environ
-            80 followers (&lt;3 je vous aime)) que j'ignore sans vergogne pensant à un spam me promettant de devenir millionaire en
-            gagnant près de 10000€ par jour depuis mon canapé. Quelques jours se passent, et boom, rebelote, même message. Cette
-            fois-çi, je traduis le message sur Papago (le sang de la veine), après tout, devenir millionaire, pourquoi pas !</p>
-          <p>L'auteur du message était selon lui, un employé de MBC, il me décrivait en gros l'émission, me disait qu'ils
-            avaient repéré mon profil et qu'il serait intéressé d'avoir un entretien avec moi.<br/> Mais je bosse dans l'informatique,
-            ou bien est-ce seulement ma nature, mais à ce moment je pense toujours que ce message est un spam et que l'auteur
-            va me demander mon numéro de carte bancaire dans le prochain message.<br/> Cependant un léger doute commence à s'installer,
-            et je montre donc le message à mes collègues Coréennes. Elles me disent qu'en fait non, le message à l'air d'être
-            bel et bien honnête ! Elles ont l'air même un peu choqué, je l'ignorais, mais elles m'apprennent que cette
-            émission est quand même assez populaire et que tout le monde la connait au moins de nom. Elles n'en reviennent pas,
-            et enfait moi non plus.</p>`,
+        mbc2: `<p>Yes ! I had the HUGE opportunity to participate to a TV show produced by MBC (one of the biggest
+                TV show production company in South Korea, if not the biggest) and displayed on MBC Every1 and Netflix.<br/>
+                The show name is <span class="font-weight-regular">"어서와 한국은 처음이지 ?"</span> (which could be translated
+                as "Welcome ! First time in Korea ?").<br/>The principle is as follows : The TV show follows a foreigner
+                who just arrived in Korea, the production makes 2-3 friends of this person come and together they will
+                discover one or more Korean cultural aspects: food, customs, traditions, music, etc ...</p>
+                <p>The problem is that during the year I arrived in Korea, world was shaken by the coronavirus crisis.<br/>
+                And, for a bit more details, South Korea was one of the best country to handle the pandemic, whereas France
+                was one really struggling with it.<br/> Therefore, the Asian Republic completely restricted French people 
+                to enter its territory at some point, then cherry-picked only a few French people to be authorized in the
+                country, and it's at this point that I could get in (got extra lucky).</p>
+                <p>With that said, impossible for MBC to bring 2-3 friends from a foreign country, for 1 or 2 shooting days
+                only (not mentioning the 14 days-mandatory-quarantine).<br/> So production change slightly the principle
+                of the TV show to follow the stranger journey alone, without friends.</p>`,
+        mbc3: `<p> So I am freshly starting my new life in Korea, it's been approximately 1 month that I started working.<br/>
+               One day, I get a pretty long, full-korean message on my insta (then gifted with ~80 followers (&lt;3 love you)) 
+               which I ignore thinking that it was a spam promising me to become a multi-millionaire by earning 10000€/day from
+               my sofa. A few days has passed, and boom, same message again. This time I give it a bit more chance and translate
+               it on Papago (shout out to the most useful app while being in Korea), after all, being millionaire does not sound
+               too bad !</p>
+               <p>The author of the message, was according to him, an MBC employee, he described to me the principle of the show,
+                that they noticed my profile and that they would be interested in having an interview with me.<br/>
+                But I work in IT, or maybe I don't trust this kind of message at all by nature, but at this point,
+                I still think that this is a spam and that this guy will ask for my card number in the next message.<br/>
+                Nonetheless, I start to be a little doubtful, so I show the message to my Korean colleagues. And they told me
+                that the message seems super legit! They seem a bit shocked, I did not know anything about this show, but they
+                told me that it is super popular and that everybody knew that show, at least by name. It is kinda hard
+                to realize what just happened to be honest.</p>`,
         mbc4: `<p>"L'opportunité est prompte à s'enfuir, mais longue à revenir", cette très ancienne citation de Hazrat Ali résonne
             énormément avec moi depuis que je suis à Séoul.<br/> Ni une, ni deux je réponds que je suis extrêmement intéressé et
             on se calle un rendez-vous dans les locaux de MBC Dream Center à Ilsan.<br/>
