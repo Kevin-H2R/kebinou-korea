@@ -69,13 +69,15 @@ export default {
       navigator.clipboard.writeText('어서와 한국은 처음이지')
     }
   },
-  metaInfo: {
-    title: 'Faire un TV show célèbre en Corée | Kebinou',
-    meta: [{
-      vmid: 'description',
-      name: 'description',
-      content: "Mon expérience de participer à un TV show très connu en Corée et qui passe sur Netflix!"
-    }]
+  metaInfo() {
+    return {
+      title: this.$t('mbc1') + ' | Kebinou',
+      meta: [{
+        vmid: 'description',
+        name: 'description',
+        content: this.$t('metaDescriptionMBC')
+      }]
+    }
   }
 }
 </script>

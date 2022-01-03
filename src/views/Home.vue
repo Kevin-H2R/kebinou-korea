@@ -124,10 +124,10 @@ export default {
   data: function() {
     return {
       articles: [
-        {title: 'Nutella 호떡 (Hotteok)', imageName: 'thumbnails/hotteok.jpg', link:'/hotteok',
-          cols: 12, sm: 10, md: 4, lg: 4,  categories: ['food', 'spot'], date: '2021-11-22'},
         {title: 'Tourner pour la télé Coréenne et Netflix !', imageName: 'articles/mbc/cover.jpg', link:'/tv-show',
           cols: 12, sm: 10, md: 4, lg: 4,  categories: ['activities'], date: '2021-12-29'},
+        {title: 'Nutella 호떡 (Hotteok)', imageName: 'thumbnails/hotteok.jpg', link:'/hotteok',
+          cols: 12, sm: 10, md: 4, lg: 4,  categories: ['food', 'spot'], date: '2021-11-22'},
       ],
       addresses: [
         {name: '삼맛호오떡', imageName: 'hotteok.jpg', path: "/hotteok",
@@ -136,15 +136,15 @@ export default {
       category: 'all'
     }
   },
-  metaInfo: {
-    title: 'Kebinou',
-    meta: [{
-      vmid: 'description',
-      name: 'description',
-        content: "Le blog des aventures de Kebinou en Corée du Sud. " +
-            "Retrouvez un maximum de bons plans bouffe, culture, spot, " +
-            "activités pour votre voyage au pays du matin calme."
+  metaInfo() {
+    return {
+      title: 'Kebinou',
+      meta: [{
+        vmid: 'description',
+        name: 'description',
+        content: this.$t('metaDescriptionHome')
       }]
+    }
   }
 }
 </script>

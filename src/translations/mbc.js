@@ -74,6 +74,7 @@ const mbcMessages = {
         captionReaction: 'Approximately my reaction',
         captionLobby: 'MBC Dream Center lobby',
         captionNetflix: 'Thumbnail of the TV Show on Netflix',
+        metaDescriptionMBC: 'My experience on participating on a famous TV Show that is also featured on Netflix!',
     },
     fr: {
         mbc1: `Tourner pour la télé Coréenne et Netflix !`,
@@ -150,6 +151,7 @@ const mbcMessages = {
         captionReaction: 'A peu près ma réaction',
         captionLobby: 'Lobby du MBC Dream Center',
         captionNetflix: 'Vignette de l\'épisode sur Netflix',
+        metaDescriptionMBC: 'Mon expérience de participer à un TV show très connu en Corée et qui passe sur Netflix!',
     }
 }
 
