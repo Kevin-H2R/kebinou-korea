@@ -29,44 +29,44 @@ const mbcMessages = {
                 that the message seems super legit! They seem a bit shocked, I did not know anything about this show, but they
                 told me that it is super popular and that everybody knew that show, at least by name. It is kinda hard
                 to realize what just happened to be honest.</p>`,
-        mbc4: `<p>"L'opportunité est prompte à s'enfuir, mais longue à revenir", cette très ancienne citation de Hazrat Ali résonne
-            énormément avec moi depuis que je suis à Séoul.<br/> Ni une, ni deux je réponds que je suis extrêmement intéressé et
-            on se calle un rendez-vous dans les locaux de MBC Dream Center à Ilsan.<br/>
-            J'y fonce un soir après le boulot et j'y suis bien très bien accueilli. On m'amène dans une salle de réunion,
-            où je patiente 5min, on me propose divers snacks et boisson, plutôt cool. Puis, pas moins de 7 personnes rentrent
-            en même temps dans la salle de réunion, producteur, réalisateur, staff technique. Ils sont tous très sympas,
-            souriants, peu parle anglais mais l'humeur est légère et je suis à l'aise rapidement.<br/>
-            Le but de cet entretien est de savoir concrètement qu'est ce que je fou en Corée, pourquoi et comment j'ai
-            atterris ici.<br/> Par contre le tout était filmé (et pas sur mon bon profil 😭 !), j'ai demandé moi aussi
-            si je pouvais me filmer avec ma propre caméra, histoire de vous faire partager ça, mais il m'ont dit non :/.
-            L'entretien se passe nickel et ils sont obligé de me mettre dehors à un moment donné parce que
-            je raconte trop ma vie, qu'il est presque 21h et qu'ils doivent encore bosser derrière (les pauvres, force à eux).<br/>
-            Pas de conclusion à ce moment là, ils devraient me recontacter dans les jours à venir.</p>
-          <p>J'étais déjà hyper content d'être arrivé jusqu'ici et je n'attendais pas de réponse pour être honnête,
-            je n'ai pas le visage hyper symétrique, sur le spectre introverti/extraverti je suis plutôt côté introverti, en gros :<br/>
-            <span class="font-weight-bold">Je ne pense pas être un bon "match" pour faire de la télé.</span></p>`,
-        mbc5: `<p>Et pourtant ! Après quelques jours / semaines, mon contact chez MBC me confirme que tout est bon de leur
-            côté et que je vais pouvoir tourner l'épisode dans les jours à venir !<br/> Quelle chance ! Ce qui m'arrive est complètement dingue.
-            Je suis bien super hyper excité, mais il faut l'avouer également un peu anxieux. Passer devant des centaines
-            de milliers (voir millions) de personnes quand on a pas une confiance en soi démesurée, ce n'est pas le chose
-            la plus évidente au monde haha.</p>
-          <span>Je ne vais pas écrire les détails du tournage dans ce billet, il est déjà trop long et indigeste, mais promis,
-            si ça vous intéresse, je l'écrirais du mieux que je peux afin de vraiment vous faire vivre les coulisses de
-            cette expérience unique.<br/>
-            Si vous avez envie de voir l'épisode, il va vous falloir un VPN et Netflix :<br/>
-            - Se caler en Corée du Sud avec votre VPN<br/>
-            - Chercher les termes 'Welcome first time' ou directement '어서와 한국은 처음이지'</span>`,
-        mbc5_2: `<span>si vous avez un clavier Coréen (ou le copier depuis ce billet 🤭)<br/>
-            - Episode 40 de la saison 2021, date exacte : 2021-10-07<br/>
-            - La première partie est sur un Américain, je suis présent dans l'intro et en deuxième partie d'épisode<br/>
-            - Préparer vous à "cringe" sévèrement, perso je n'arrive pas à regarder l'épisode tellement je
-            suis ridiculus par moment 😂 (mais bon askip' ça ne tue pas).</span>`,
-        mbc6: `<p>En bonus: Quelques images de l'épisode et du tournage. Je n'avais pas vraiment le droit de prendre des photos
-            durant le shooting, mais j'ai insisté pour quand même prendre quelques-unes.</p>`,
-        mbc7: `<p><i>Au moment où j'écris ce billet, j'ai tourné un autre épisode dispo le 6 Janvier 2022 sur Netflix !</i></p>
-          <p>Faite moi vos retours les plus honnête sur mon insta si vous avez vu l'épisode :
-            (<a href="https://www.instagram.com/kebinou_korea/" target="_blank">@kebinou_korea</a>).
-            Ca me fera énormément plaisir ❤. Bisous.</p>`,
+        mbc4: `<p>"Opportunity passes away like a cloud. Therefore make use of good opportunities.", that ancient quote
+               from Hazrat Ali really resonates with me since I arrived in Seoul.<br/>Without waiting, I answer that 
+               I am super interested, and we set up an appointment in their office at the MBC Dream Center in Ilsan.<br/>
+               I rush there one evening after work, and I'm super well welcomed. They bring me to a meeting room, where I  
+               wait 5min, they propose me diverse snacks and drinks, pretty cool. Then, not less than 7 people enters the room:
+               producer, director, technical staff. They are all super nice to me, smiling, only a few speak english though,
+               but the mood is wonderful, and I'm comfortable really fast.<br/>The goal of this interview is to understand
+               what I'm concretely doing in South Korea, why and how did I arrive here.<br/>
+               And everything was filmed (not on my good profile tho 😭 !). I also asked to shoot the interview with my
+               camera so that I could share it with you guys, but I was not allowed to :/. The interview goes super well,
+               and they have to push me out of their office because I am talking too much about my life, that it's almost
+               9pm, and that they still have to work after (poor guys, cheers to them).<br/>
+               No conclusion at this point, they should get back to me in the next few days.</p>
+               <p>I was already extremely happy that I got so far already, and I did not expect to be called back to be honest,
+               I don't have a super symmetrical face, and on the introvert/extrovert spectrum I am more on the introvert side,
+               summed up: <br/><span class="font-weight-bold">I don't think I'm a good match for TV.</span></p>`,
+        mbc5: `<p>BUT! After a few days / weeks, the guy from MBC calls me and says everything is good on their side, and that
+                I will be able to shoot the episode in the following days !<br/> This is nuts! I am super excited, but also
+                a bit nervous. Being displayed on TV, in front of hundreds of thousands (maybe even millions) of people, when
+                your self-esteem is not high, it's not the easiest thing in the world haha. But I am decided to take this
+                opportunity!</p>
+                <span>I will not describe the details of the shooting in that pst, it's already too long, but I promise you,
+                if you are interested, I'll write it the best to really make you live that moment as you were with me at this time
+                during that unique experience.><br/>
+                If you want to watch the episode (if you are not in Korea), you'll need a VPN and Netflix:<br/>
+                - Set your VPN in South Korea<br/>
+                - Look for the terms 'Welcome first time', or directly'어서와 한국은 처음이지'</span>`,
+        mbc5_2: `<span> if you've got a Korean keyboard (you can also copy it directly from that article 😉)<br/>
+                 - Episode 40 from 2021 season, exact date: 2021-10-07<br/>
+                 - First part is about an American guy, I'm displayed in the introduction and in the second part of the episode<br/>
+                 - Get ready to cringe the hell out of you. Personally, I can not watch the episode, I'm way too ridiculous from
+                 time to time 😂</span>`,
+        mbc6: `<p>Bonus: A few images from the episode and the shooting. I did not really have the right to take pictures during the
+               shooting, but I insisted hehe.</p>`,
+        mbc7: `<p><i>As I am writing this post, my second episode is in the making, aired on the 6th of January 2022 on Netflix!</i></p>
+               <p>Give me your honest feedback on insta if you watched the episode:
+               (<a href="https://www.instagram.com/kebinou_korea/" target="_blank">@kebinou_korea</a>).
+               I'm really interested in hearing what you think of it ❤. Kisses.</p>`,
         captionPoster: 'Poster of the show',
         captionReaction: 'Approximately my reaction',
         captionLobby: 'MBC Dream Center lobby',
@@ -125,11 +125,11 @@ const mbcMessages = {
             côté et que je vais pouvoir tourner l'épisode dans les jours à venir !<br/> Quelle chance ! Ce qui m'arrive est complètement dingue.
             Je suis bien super hyper excité, mais il faut l'avouer également un peu anxieux. Passer devant des centaines
             de milliers (voir millions) de personnes quand on a pas une confiance en soi démesurée, ce n'est pas le chose
-            la plus évidente au monde haha.</p>
+            la plus évidente au monde haha. Mais je suis déterminé à saisir cette opportunité !</p>
           <span>Je ne vais pas écrire les détails du tournage dans ce billet, il est déjà trop long et indigeste, mais promis,
             si ça vous intéresse, je l'écrirais du mieux que je peux afin de vraiment vous faire vivre les coulisses de
             cette expérience unique.<br/>
-            Si vous avez envie de voir l'épisode, il va vous falloir un VPN et Netflix :<br/>
+            Si vous avez envie de voir l'épisode (et que vous n'êtes pas en Corée), il va vous falloir un VPN et Netflix :<br/>
             - Se caler en Corée du Sud avec votre VPN<br/>
             - Chercher les termes 'Welcome first time' ou directement '어서와 한국은 처음이지'</span>`,
         mbc5_2: `<span>si vous avez un clavier Coréen (ou le copier depuis ce billet 🤭)<br/>
