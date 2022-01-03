@@ -48,7 +48,7 @@ export default {
   },
   computed: {
     image: function () {
-      return require('@/assets/thumbnails/' + this.imageName)
+      return require('@/assets/' + this.imageName)
     }
   },
   methods: {
