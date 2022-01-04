@@ -2,7 +2,7 @@
   <v-container fluid class="home">
     <v-container id="categories" class="home__section d-flex flex-column">
       <v-row class="home__headline mt-10" justify="center">
-        <v-col cols="12" sm="2" md="2" class="text-right">
+        <v-col cols="12" sm="2" md="2" :class="$vuetify.breakpoint.smAndUp ? 'text-right' : 'text-center'">
           <v-avatar width="150" height="150">
             <v-img src="@/assets/portrait1.jpg" alt="C'est ma tete"/>
           </v-avatar>
