@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueI18n from "vue-i18n";
 import hotteokMessages from "../translations/hotteok";
 import mbcMessages from "../translations/mbc";
+import gardenMessages from "../translations/garden";
 Vue.use(VueI18n)
 
 const messages = {
@@ -23,6 +24,7 @@ const messages = {
         vocab: 'Vocab words in this article',
         ...hotteokMessages.en,
         ...mbcMessages.en,
+        ...gardenMessages.en,
     },
     fr: {
         categories: "Catégories",
@@ -42,6 +44,7 @@ const messages = {
         vocab: "Mot de vocabulaires présents dans l'article",
         ...hotteokMessages.fr,
         ...mbcMessages.fr,
+        ...gardenMessages.fr,
     },
 }
 

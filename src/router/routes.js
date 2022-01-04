@@ -14,4 +14,9 @@ export const routes = [
         name: 'TVShow',
         component: () => import('../components/Articles/mbc/MBCArticle')
     },
+    {
+        path: '/garden',
+        name: 'Garden',
+        component: () => import('../components/Articles/garden/GardenArticle')
+    },
 ]
