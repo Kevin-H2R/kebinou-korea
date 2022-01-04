@@ -1,7 +1,7 @@
 <template>
   <v-row justify="center">
     <v-col cols="12" sm="10" md="8" lg="6">
-      <p class="article__p">Hold up ! Stop drooling on your keyboard or on your mobile phone and read
+      <p class="article__p">Hold up ! Stop drooling on your keyboard or on your mobile <vocab-word v-bind="vocab.phone" /> and read
         this article that Kebinou wrote for you on the legendary Nutella 호떡 (Hotteok).</p>
       <p class="article__p">First of all, what is a 호떡? It's a desert, that we could compare to a pancake filled
         with a special mixture. You can find them everywhere in South Korea but especially when
@@ -26,7 +26,7 @@
         encounter, being a <span class="font-weight-bold">huuuuuuge</span> fan of crêpes/pancakes.
         And it's by my meighboorhood of Hongdae that one night, I met the Holy Grail. And I've got to admit
         I was a bit disappointed:<br> Over cooked, not enough filling, closer to card box than to a desert.
-        The old lady owning the street food stand tender eyes could not comfort me of this little
+        The <vocab-word v-bind="vocab.granny"/> owning the street food stand tender eyes could not comfort me of this little
         disappointment<br>
         Buuuuut, I did not give up, and the second one I tried was delicious and matched my expectetions.
         Price is usually 1000₩ (~0.75€), but can vary and especially if you want to try another flavour
@@ -34,8 +34,9 @@
       <p class="article__p">Speaking of which (nice transition huh?), I heard about a legend, a myth, a rare 호떡 that would give
         you a ticket straight to cloud 9 in business class. I give you :
         <span class="font-weight-bold">the Nutella 호떡.</span></p>
-      <p class="article__p">Without waiting, I grab a Seoul city bike (first time I rode a bike in ~15 years)
-        and I'm on for a 1h30 ride along side the Han river until this sanctuary of pleasure
+      <p class="article__p">Without waiting, I grab a Seoul city <vocab-word v-bind="vocab.bike"/>
+        (first time I rode a bike in ~15 years)
+        and I'm on for a 1h30 ride along side the <vocab-word v-bind="vocab.hanRiver"/> until this sanctuary of pleasure
         (I needed to use as much kcal as I could before meeting this wonderful 호떡, with whom I decided
         to get married since then). And well, I was not disappointed at all, it was pure pleasure.
         Filled with just enough Nutella, cooked perfectly, I am in paradise.
@@ -52,14 +53,33 @@
         Let's spread the love for 호떡 hehe!<br> Bisous.</p>
 
       <span class="text-caption">2021-11-22</span>
+
+      <v-divider class="ma-16"/>
+
+      <v-row class="mb-16">
+        <vocab-list :vocab="vocab"/>
+      </v-row>
     </v-col>
   </v-row>
 
 </template>
 
 <script>
+import VocabWord from "../../VocabWord";
+import VocabList from "../../VocabList";
 export default {
   name: "en-hotteok-content",
+  components: {VocabWord, VocabList},
+  data() {
+    return {
+      vocab: {
+        phone: {word: 'phone', korean: '전화', phonetic: 'jeonhwa'},
+        granny: {word: 'old lady', korean: '할머니', phonetic: 'halmeoni'},
+        bike: {word: 'bike', korean: '자전거', phonetic: 'jajeongeo'},
+        hanRiver: {word: 'Han river', korean: '한강', phonetic: 'hangang'},
+      }
+    }
+  }
 }
 </script>
 
