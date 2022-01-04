@@ -27,9 +27,9 @@
 </template>
 
 <script>
-import AddressCard from "../AddressCard";
-import EnHotteokContent from "./en/EnHotteokContent";
-import FrHotteokContent from "./fr/FrHotteokContent";
+import AddressCard from "../../AddressCard";
+import EnHotteokContent from "./EnHotteokContent";
+import FrHotteokContent from "./FrHotteokContent";
 export default {
   name: "HotteokArticle",
   components: {EnHotteokContent, FrHotteokContent, AddressCard},

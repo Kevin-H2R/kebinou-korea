@@ -18,8 +18,8 @@
 </template>
 
 <script>
-import FrMbcContent from "./fr/FrMBCContent";
-import EnMbcContent from "./en/EnMBCContent";
+import FrMbcContent from "./FrMBCContent";
+import EnMbcContent from "./EnMBCContent";
 export default {
   name: "mbc-article",
   components: {EnMbcContent, FrMbcContent},
