@@ -54,7 +54,7 @@
 
           <span v-html="$t('mbc7')"/>
 
-          <span class="text-caption">2021-11-22</span>
+          <span class="text-caption">2021-12-29</span>
         </v-col>
       </v-row>
     </div>
