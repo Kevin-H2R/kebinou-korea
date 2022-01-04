@@ -43,7 +43,8 @@
         énormément avec moi depuis que je suis à Séoul.<br/> Ni une, ni deux je réponds que je suis extrêmement intéressé et
         on se calle un rendez-vous dans les locaux de MBC Dream Center à Ilsan.<br/>
         J'y fonce un soir après le boulot et j'y suis bien très bien accueilli. On m'amène dans une salle de réunion,
-        où je patiente 5min, on me propose divers snacks et boisson, plutôt cool. Puis, pas moins de 7 personnes rentrent
+        où je patiente 5min, on me propose divers  <vocab-word word="snacks" korean="과자" phonetic="gwaja"/>
+        et boisson, plutôt cool. Puis, pas moins de 7 personnes rentrent
         en même temps dans la salle de réunion, producteur, réalisateur, staff technique. Ils sont tous très sympas,
         souriants, peu parle anglais mais l'humeur est légère et je suis à l'aise rapidement.<br/>
         Le but de cet entretien est de savoir concrètement qu'est ce que je fou en Corée, pourquoi et comment j'ai
@@ -108,8 +109,10 @@
 </template>
 
 <script>
+import VocabWord from "../../VocabWord";
 export default {
-  name: "fr-mbc-content"
+  name: "fr-mbc-content",
+  components: {VocabWord}
 }
 </script>
 

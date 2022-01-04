@@ -42,8 +42,9 @@
         from Hazrat Ali really resonates with me since I arrived in Seoul.<br/>Without waiting, I answer that
         I am super interested, and we set up an appointment in their office at the MBC Dream Center in Ilsan.<br/>
         I rush there one evening after work, and I'm super well welcomed. They bring me to a meeting room, where I
-        wait 5min, they propose me diverse snacks and drinks, pretty cool. Then, not less than 7 people enters the room:
-        producer, director, technical staff. They are all super nice to me, smiling, only a few speak english though,
+        wait 5min, they propose me diverse <vocab-word word="snacks" korean="과자" phonetic="gwaja"/> and drinks, pretty cool.
+        Then, not less than 7 people enters the room: producer, director, technical staff. They are all super nice to me,
+        smiling, only a few speak english though,
         but the mood is wonderful, and I'm comfortable really fast.<br/>The goal of this interview is to understand
         what I'm concretely doing in South Korea, why and how did I arrive here.<br/>
         And everything was filmed (not on my good profile tho 😭 !). I also asked to shoot the interview with my
@@ -107,8 +108,10 @@
 </template>
 
 <script>
+import VocabWord from "../../VocabWord";
 export default {
-  name: "en-mbc-content"
+  name: "en-mbc-content",
+  components: {VocabWord}
 }
 </script>
 
