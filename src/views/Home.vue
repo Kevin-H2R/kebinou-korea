@@ -124,7 +124,7 @@ export default {
   data: function() {
     return {
       articles: [
-        {title: 'Tourner pour la télé Coréenne et Netflix !', imageName: 'articles/mbc/cover.jpg', link:'/tv-show',
+        {title: this.$t('mbcTitle'), imageName: 'articles/mbc/cover.jpg', link:'/tv-show',
           cols: 12, sm: 10, md: 4, lg: 4,  categories: ['activities'], date: '2021-12-29'},
         {title: 'Nutella 호떡 (Hotteok)', imageName: 'thumbnails/hotteok.jpg', link:'/hotteok',
           cols: 12, sm: 10, md: 4, lg: 4,  categories: ['food', 'spot'], date: '2021-11-22'},
