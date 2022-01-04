@@ -23,11 +23,6 @@ import EnMbcContent from "./en/EnMBCContent";
 export default {
   name: "mbc-article",
   components: {EnMbcContent, FrMbcContent},
-  methods: {
-    copyToClipBoard() {
-      navigator.clipboard.writeText('어서와 한국은 처음이지')
-    }
-  },
   metaInfo() {
     return {
       title: this.$t('mbcTitle') + ' | Kebinou',

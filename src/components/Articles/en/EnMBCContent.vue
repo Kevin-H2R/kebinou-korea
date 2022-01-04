@@ -44,7 +44,7 @@
         from Hazrat Ali really resonates with me since I arrived in Seoul.<br/>Without waiting, I answer that
         I am super interested, and we set up an appointment in their office at the MBC Dream Center in Ilsan.<br/>
         I rush there one evening after work, and I'm super well welcomed. They bring me to a meeting room, where I
-        wait 5min, they propose me diverse <vocab-word word="snacks" korean="과자" phonetic="gwaja"/> and drinks, pretty cool.
+        wait 5min, they propose me diverse <vocab-word v-bind="vocab.snack"/> and <vocab-word v-bind="vocab.drink"/>, pretty cool.
         Then, not less than 7 people enters the room: producer, director, technical staff. They are all super nice to me,
         smiling, only a few speak english though,
         but the mood is wonderful, and I'm comfortable really fast.<br/>The goal of this interview is to understand
@@ -82,8 +82,8 @@
       <v-img class="mt-16" src="@/assets/articles/mbc/netflix-thumbnail.jpg" max-height="400" contain alt="Vignette du tv show sur Netflix"/>
       <div class="text-center mb-16"><i class="text-caption">{{ $t('captionNetflix') }}</i></div>
 
-      <p class="article__p">Bonus: A few images from the episode and the shooting. I did not really have the right to take pictures during the
-        shooting, but I insisted hehe.</p>
+      <p class="article__p">Bonus: A few images from the episode and the shooting. I did not really have the right to take
+        <vocab-word v-bind="vocab.photo"/> photos during the shooting, but I insisted hehe.</p>
 
       <v-row class="flex-wrap" justify="center">
         <v-col cols="12" sm="6" md="4">
@@ -121,12 +121,20 @@ import VocabList from "../../VocabList";
 export default {
   name: "en-mbc-content",
   components: {VocabList, VocabWord},
+  methods: {
+    copyToClipBoard() {
+      navigator.clipboard.writeText('어서와 한국은 처음이지')
+    }
+  },
   data() {
     return {
       vocab: {
         friends: {word: 'friends', korean: '친구', phonetic: 'chingu'},
         food: {word: 'food', korean: '음식', phonetic: 'eumsig'},
         music: {word: 'music', korean: '음악', phonetic: 'eumag'},
+        drink: {word: 'drinks', korean: '음료수', phonetic: 'eumlyosu'},
+        snack: {word: 'snacks', korean: '과자', phonetic: 'gwaja'},
+        photo: {word: 'photos', korean: '사진', phonetic: 'sajin'},
       }
     }
   }

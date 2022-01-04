@@ -1,7 +1,10 @@
 <template>
   <v-expansion-panels tile>
     <v-expansion-panel>
-      <v-expansion-panel-header>{{ $t('vocab') }}</v-expansion-panel-header>
+      <v-expansion-panel-header>
+        <v-icon class="flex-grow-0 mr-5" color="primary">mdi-information</v-icon>
+        {{ $t('vocab') }}
+      </v-expansion-panel-header>
       <v-expansion-panel-content>
         <v-container>
           <v-row v-for="(item, index) in vocab" :key="'vocab_word_' + index" align="center">

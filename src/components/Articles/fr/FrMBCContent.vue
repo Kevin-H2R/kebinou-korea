@@ -45,8 +45,8 @@
         énormément avec moi depuis que je suis à Séoul.<br/> Ni une, ni deux je réponds que je suis extrêmement intéressé et
         on se calle un rendez-vous dans les locaux de MBC Dream Center à Ilsan.<br/>
         J'y fonce un soir après le boulot et j'y suis bien très bien accueilli. On m'amène dans une salle de réunion,
-        où je patiente 5min, on me propose divers  <vocab-word word="snacks" korean="과자" phonetic="gwaja"/>
-        et boisson, plutôt cool. Puis, pas moins de 7 personnes rentrent
+        où je patiente 5min, on me propose divers <vocab-word v-bind="vocab.snack"/>
+        et <vocab-word v-bind="vocab.drink"/>, plutôt cool. Puis, pas moins de 7 personnes rentrent
         en même temps dans la salle de réunion, producteur, réalisateur, staff technique. Ils sont tous très sympas,
         souriants, peu parle anglais mais l'humeur est légère et je suis à l'aise rapidement.<br/>
         Le but de cet entretien est de savoir concrètement qu'est ce que je fou en Corée, pourquoi et comment j'ai
@@ -83,8 +83,8 @@
       <v-img class="mt-16" src="@/assets/articles/mbc/netflix-thumbnail.jpg" max-height="400" contain alt="Vignette du tv show sur Netflix"/>
       <div class="text-center mb-16"><i class="text-caption">{{ $t('captionNetflix') }}</i></div>
 
-      <p class="article__p">En bonus: Quelques images de l'épisode et du tournage. Je n'avais pas vraiment le droit de prendre des photos
-        durant le shooting, mais j'ai insisté pour quand même prendre quelques-unes.</p>
+      <p class="article__p">En bonus: Quelques images de l'épisode et du tournage. Je n'avais pas vraiment le droit de prendre
+        de <vocab-word v-bind="vocab.photo"/> durant le shooting, mais j'ai insisté pour quand même prendre quelques-unes.</p>
 
       <v-row class="flex-wrap" justify="center">
         <v-col cols="12" sm="6" md="4">
@@ -124,12 +124,20 @@ import VocabList from "../../VocabList";
 export default {
   name: "fr-mbc-content",
   components: {VocabWord, VocabList},
+  methods: {
+    copyToClipBoard() {
+      navigator.clipboard.writeText('어서와 한국은 처음이지')
+    }
+  },
   data() {
     return {
       vocab: {
         friends: {word: 'amis', korean: '친구', phonetic: 'chingu'},
         food: {word: 'nourriture', korean: '음식', phonetic: 'eumsig'},
         music: {word: 'musique', korean: '음악', phonetic: 'eumag'},
+        drink: {word: 'boissons', korean: '음료수', phonetic: 'eumlyosu'},
+        snack: {word: 'snacks', korean: '과자', phonetic: 'gwaja'},
+        photo: {word: 'photos', korean: '사진', phonetic: 'sajin'},
       }
     }
   }
