@@ -4,14 +4,20 @@
     font-size: 4em;
   }
   &__content {
-    font-size: 1.5em;
+    font-size: 1.35em;
     font-weight: lighter;
     letter-spacing: 0.1em;
-    line-height: 2.5em;
+    line-height: 2em;
   }
-  p {
-    margin: 100px 0;
+
+  &__p {
+    margin: 42px 0;
   }
+
+  &__p--small {
+    margin: 42px;
+  }
+
   &__primary-text {
     color: #1976D2;
   }

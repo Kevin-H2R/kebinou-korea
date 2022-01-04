@@ -14,14 +14,14 @@
             <v-row justify="center">
                 <v-col cols="12" sm="10" md="8" lg="6">
                   <span v-html="$t('hotteok1')"></span>
-                  <v-img src="@/assets/articles/hotteok/stand.jpg" height="400" contain alt="Stand de street food"/>
-                  <div class="text-center"><i class="text-caption">{{ $t('streetFoodCaption') }}</i></div>
+                  <v-img class="mt-16" src="@/assets/articles/hotteok/stand.jpg" max-height="400" contain alt="Stand de street food"/>
+                  <div class="text-center mb-16"><i class="text-caption">{{ $t('streetFoodCaption') }}</i></div>
                   <span v-html="$t('hotteok2')"></span>
-                  <v-img src="@/assets/articles/hotteok/hotteok.jpg" height="400" contain alt="Hottoek au Nutella"/>
-                  <div class="text-center"><i class="text-caption">{{ $t('hotteokCaption') }}</i></div>
+                  <v-img class="mt-16" src="@/assets/articles/hotteok/hotteok.jpg" max-height="400" contain alt="Hottoek au Nutella"/>
+                  <div class="text-center mb-16"><i class="text-caption">{{ $t('hotteokCaption') }}</i></div>
                   <span v-html="$t('hotteok3')"></span>
-                  <v-img src="@/assets/articles/hotteok/video.gif" height="400" contain alt="Gif d'un Hotteok au Nutella"/>
-                  <div class="text-center"><i class="text-caption">No comment 🤤</i></div>
+                  <v-img class="mt-16" src="@/assets/articles/hotteok/video.gif" max-height="400" contain alt="Gif d'un Hotteok au Nutella"/>
+                  <div class="text-center mb-16"><i class="text-caption">No comment 🤤</i></div>
                   <span v-html="$t('hotteok4')"></span>
                   <span class="text-caption">2021-11-22</span>
                 </v-col>

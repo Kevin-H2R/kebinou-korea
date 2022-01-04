@@ -12,6 +12,8 @@ const messages = {
         kebinouAdventure: "Kebinou's Korean Adventure",
         food: "Food",
         activities: "Activities",
+        spots: "Spots",
+        culture: 'Culture',
         introduction: `<div class="text-h4 font-weight-light">Hey ! I'm Kevin (aka Kebinou) a computing engineer in South Korea.</div>
           <div class="text-small font-weight-light my-8">
             I like simple, ergonomic things, sweet potatoes and OSS 117 (french movie) quotes.<br/>
@@ -28,6 +30,8 @@ const messages = {
         kebinouAdventure: "L'aventure Coréenne de Kebinou",
         food: "Bouffe",
         activities: "Activités",
+        spots: "Spots",
+        culture: 'Culture',
         introduction: `<div class="text-h4 font-weight-light">Coucou ! Je m'appelle Kevin (aka Kebinou) je suis ingénieur informatique en Corée du Sud.</div>
           <div class="text-small font-weight-light my-8">
             J'aime les choses simples, ergonimiques, la patate douce et les citations d'OSS 117.<br/>

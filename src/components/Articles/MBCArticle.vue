@@ -16,25 +16,25 @@
 
           <span v-html="$t('mbc2')"/>
 
-          <v-img src="@/assets/articles/mbc/welcome.jpg" height="400" contain alt="Logo Welcome first time in Korea"/>
-          <div class="text-center"><i class="text-caption">{{ $t('captionPoster') }}</i></div>
+          <v-img class="mt-16" src="@/assets/articles/mbc/welcome.jpg" max-height="400" contain alt="Logo Welcome first time in Korea"/>
+          <div class="text-center mb-16"><i class="text-caption">{{ $t('captionPoster') }}</i></div>
 
           <span v-html="$t('mbc3')"/>
 
-          <v-img src="@/assets/articles/mbc/wtf.gif" height="400" contain alt="WTF gif"/>
-          <div class="text-center"><i class="text-caption">{{ $t('captionReaction') }}</i></div>
+          <v-img class="mt-16" src="@/assets/articles/mbc/wtf.gif" max-height="400" contain alt="WTF gif"/>
+          <div class="text-center mb-16"><i class="text-caption">{{ $t('captionReaction') }}</i></div>
 
           <span v-html="$t('mbc4')"/>
 
-          <v-img src="@/assets/articles/mbc/mbclobby.jpg" height="400" contain alt="Lobby du MBC Dream Center"/>
-          <div class="text-center"><i class="text-caption">{{ $t('captionLobby') }}</i></div>
+          <v-img class="mt-16" src="@/assets/articles/mbc/mbclobby.jpg" max-height="400" contain alt="Lobby du MBC Dream Center"/>
+          <div class="text-center mb-16"><i class="text-caption">{{ $t('captionLobby') }}</i></div>
 
           <span v-html="$t('mbc5')"/>
           (<v-btn color="primary" icon @click="copyToClipBoard()"><v-icon>mdi-content-copy</v-icon></v-btn>)
           <span v-html="$t('mbc5_2')"/>
 
-          <v-img src="@/assets/articles/mbc/netflix-thumbnail.jpg" height="400" contain alt="Vignette du tv show sur Netflix"/>
-          <div class="text-center"><i class="text-caption">{{ $t('captionNetflix') }}</i></div>
+          <v-img class="mt-16" src="@/assets/articles/mbc/netflix-thumbnail.jpg" max-height="400" contain alt="Vignette du tv show sur Netflix"/>
+          <div class="text-center mb-16"><i class="text-caption">{{ $t('captionNetflix') }}</i></div>
 
           <span v-html="$t('mbc6')"/>
 

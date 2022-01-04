@@ -17,11 +17,11 @@
                               @click.native="goToArticlesWithCategory('food')"/>
         </v-col>
         <v-col cols="6" sm="10" md="6" lg="3">
-          <category-thumbnail title="Culture" image-name="culture.jpg"
+          <category-thumbnail title="culture" image-name="culture.jpg"
                               @click.native="goToArticlesWithCategory('culture')"/>
         </v-col>
         <v-col cols="6" sm="10" md="6" lg="3">
-          <category-thumbnail title="Spot" image-name="spot2.jpg"
+          <category-thumbnail title="spots" image-name="spot2.jpg"
                               @click.native="goToArticlesWithCategory('spot')"/>
         </v-col>
         <v-col cols="6" sm="10" md="6" lg="3">
