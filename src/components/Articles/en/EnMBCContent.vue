@@ -6,8 +6,10 @@
         TV show production company in South Korea, if not the biggest) and displayed on MBC Every1 and Netflix.<br/>
         The show name is <span class="font-weight-regular">"어서와 한국은 처음이지 ?"</span> (which could be translated
         as "Welcome ! First time in Korea ?").<br/>The principle is as follows : The TV show follows a foreigner
-        who just arrived in Korea, the production makes 2-3 friends of this person come and together they will
-        discover one or more Korean cultural aspects: food, customs, traditions, music, etc ...</p>
+        who just arrived in Korea, the production makes 2-3 <vocab-word v-bind="vocab.friends" />
+        of this person come and together they will
+        discover one or more Korean cultural aspects: <vocab-word v-bind="vocab.food" />,
+        customs, traditions, <vocab-word v-bind="vocab.music" />, etc ...</p>
       <p class="article__p">The problem is that during the year I arrived in Korea, world was shaken by the coronavirus crisis.<br/>
         And, for a bit more details, South Korea was one of the best country to handle the pandemic, whereas France
         was one really struggling with it.<br/> Therefore, the Asian Republic completely restricted French people
@@ -103,15 +105,31 @@
         I'm really interested in hearing what you think of it ❤. Kisses.</p>
 
       <span class="text-caption">2021-12-29</span>
+
+      <v-divider class="ma-16"/>
+
+      <v-row class="mb-16">
+        <vocab-list :vocab="vocab"/>
+      </v-row>
     </v-col>
   </v-row>
 </template>
 
 <script>
 import VocabWord from "../../VocabWord";
+import VocabList from "../../VocabList";
 export default {
   name: "en-mbc-content",
-  components: {VocabWord}
+  components: {VocabList, VocabWord},
+  data() {
+    return {
+      vocab: {
+        friends: {word: 'friends', korean: '친구', phonetic: 'chingu'},
+        food: {word: 'food', korean: '음식', phonetic: 'eumsig'},
+        music: {word: 'music', korean: '음악', phonetic: 'eumag'},
+      }
+    }
+  }
 }
 </script>
 

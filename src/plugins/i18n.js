@@ -20,6 +20,7 @@ const messages = {
             I made this blog to list all the interesting things to do / eat in the Land of Morning Calm.<br/>
             <span class="font-weight-bold">Let's travel together for a while !</span></div>`,
         metaDescriptionHome: 'The adventure blog of Kebinou in South Korea. Find here all the best tips and addresses for food, culture, spots and activities for your next travel in the Land of Morning Calm.',
+        vocab: 'Vocab words in this article',
         ...hotteokMessages.en,
         ...mbcMessages.en,
     },
@@ -38,6 +39,7 @@ const messages = {
             J'ai fais ce blog pour répertorier les diverses choses que j'ai trouvé intéressantes à faire / déguster au pays du matin calme. <br/>
             <span class="font-weight-bold">Voyageons ensemble pour quelques minutes !</span></div>`,
         metaDescriptionHome: 'Le blog des aventures de Kebinou en Corée du Sud. Retrouvez un maximum de bons plans bouffe, culture, spots et activités pour votre prochain voyage au pays du matin calme.',
+        vocab: "Mot de vocabulaires présents dans l'article",
         ...hotteokMessages.fr,
         ...mbcMessages.fr,
     },

@@ -7,8 +7,10 @@
         L'émission s'appelle <span class="font-weight-regular">"어서와 한국은 처음이지 ?"</span>
         (que l'on pourrait traduire par : "Bienvenue ! Première fois en Corée ?").<br/>
         Le principe de base est le suivant : l'émission suit un étranger fraichement arrivé en Corée,
-        la production fait venir 2-3 amis de la personne et ils vont découvrir ensemble un ou plusieurs aspects de la
-        culture Coréenne : nourriture, coutumes, traditions, musique, etc...</p>
+        la production fait venir 2-3 <vocab-word v-bind="vocab.friends"/>
+        amis de la personne et ils vont découvrir ensemble un ou plusieurs aspects de la
+        culture Coréenne : <vocab-word v-bind="vocab.food"/>, coutumes,
+        traditions, <vocab-word v-bind="vocab.music"/>, etc...</p>
       <p class="article__p">Le problème étant que l'année durant laquelle je suis arrivée en Corée, le monde était bouleversé par
         la crise du coronavirus.<br/> Et, pour une bribe de contexte, la Corée était l'un des pays qui gérait le mieux
         l'épidémie à ce moment, alors que la France était plutôt dans la tranche des pays en difficulté.<br/>
@@ -104,15 +106,33 @@
         Ca me fera énormément plaisir ❤. Bisous.</p>
 
       <span class="text-caption">2021-12-29</span>
+
+      <v-divider class="ma-16"/>
+
+      <v-row>
+        <v-row class="mb-16">
+          <vocab-list :vocab="vocab"/>
+        </v-row>
+      </v-row>
     </v-col>
   </v-row>
 </template>
 
 <script>
 import VocabWord from "../../VocabWord";
+import VocabList from "../../VocabList";
 export default {
   name: "fr-mbc-content",
-  components: {VocabWord}
+  components: {VocabWord, VocabList},
+  data() {
+    return {
+      vocab: {
+        friends: {word: 'amis', korean: '친구', phonetic: 'chingu'},
+        food: {word: 'nourriture', korean: '음식', phonetic: 'eumsig'},
+        music: {word: 'musique', korean: '음악', phonetic: 'eumag'},
+      }
+    }
+  }
 }
 </script>
 

@@ -14,7 +14,7 @@
       <fr-hotteok-content v-if="$i18n.locale === 'fr'"/>
       <en-hotteok-content v-else/>
       <v-row>
-        <v-divider class="mx-16 my-16"></v-divider>
+        <v-divider class="ma-16"/>
       </v-row>
       <v-row justify="center">
         <v-col cols="12" sm="6" md="4" lg="3">
