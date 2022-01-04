@@ -17,7 +17,7 @@
             <v-col :cols="$vuetify.breakpoint.mdAndUp ? 3 : 1" v-else-if="$route.name !== 'Home'">
                 <v-btn text plain :x-large="$vuetify.breakpoint.mdAndUp"
                        :x-small="!$vuetify.breakpoint.mdAndUp"
-                       to="/" icon><v-icon>mdi-home</v-icon></v-btn>
+                       @click="goToHome()" icon><v-icon>mdi-home</v-icon></v-btn>
             </v-col>
             <v-col :cols="$vuetify.breakpoint.mdAndUp ? 6 : 7" class="text-center">
               <h1 class="main-title font-weight-medium"
@@ -48,6 +48,13 @@ import LanguageMenu from "./components/LanguageMenu";
 export default {
   name: 'App',
   components: {LanguageMenu},
+  methods: {
+    goToHome() {
+      this.$router.push("/").then(() => {
+        this.$vuetify.goTo('#articles', {duration: 0})
+      })
+    }
+  },
   data: function () {
     return {
       toggle: 0
