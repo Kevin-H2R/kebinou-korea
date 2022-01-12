@@ -124,14 +124,25 @@ export default {
   data: function() {
     return {
       articles: [
+        {title: this.$t('gardenTitle'), imageName: 'articles/garden/lotsOfLights.jpg', link:'/garden',
+          cols: 12, sm: 10, md: 4, lg: 4,  categories: ['activities', 'spot'], date: '2021-01-05'},
         {title: this.$t('mbcTitle'), imageName: 'articles/mbc/cover.jpg', link:'/tv-show',
           cols: 12, sm: 10, md: 4, lg: 4,  categories: ['activities'], date: '2021-12-29'},
-        {title: 'Nutella 호떡 (Hotteok)', imageName: 'thumbnails/hotteok.jpg', link:'/hotteok',
+        {title: 'Nutella 호떡 (Hotteok)', imageName: 'articles/hotteok/cover.jpg', link:'/hotteok',
           cols: 12, sm: 10, md: 4, lg: 4,  categories: ['food', 'spot'], date: '2021-11-22'},
       ],
       addresses: [
-        {name: '삼맛호오떡', imageName: 'hotteok.jpg', path: "/hotteok",
-          price: '3000 (~2€)', phone: '02-2299-3396', naverLink: 'http://naver.me/GgeusipV'}
+        {name: '삼맛호오떡', imageName: 'hotteok.jpg',
+          prices: [{category: 'Nutella', amount: '3000 (~2€)'}],
+          phone: '02-2299-3396', naverLink: 'http://naver.me/GgeusipV'},
+        {name: '아침고요수목원', imageName: 'garden.jpg',
+          prices: [
+            {category: this.$t('senior'), amount: '7500 (~5.5€)'},
+            {category: this.$t('adult'), amount: '9500 (~9€)'},
+            {category: this.$t('youth'), amount: '7000 (~5€)'},
+            {category: this.$t('kids'), amount: '6000 (~4.5€)'},
+          ],
+          phone: '02-1544-6703', naverLink: 'http://naver.me/xCrjkvZm'}
       ],
       category: 'all'
     }

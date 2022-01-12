@@ -9,13 +9,20 @@
       <p>En résumé: 30000m² de superficie, 5000 types de <vocab-word v-bind="vocab.plant"/>, 20 sections différentes,
         600000 visiteurs / an. Il y a de quoi faire !<br/>
         Il s'y déroule un festival différent lors de chaque saison, donc vous pouvez y allez quand vous voulez. Moi
-        j'y suis aller en hiver, la nuit du 31 Décembre exactement et s'y tenait le magnifique festival des lumières.<br/>
-        Des images valent 1000 mots comme on dit, donc je vous laisse avec quelques photos que j'ai prise durant ma visite.<br/>
+        j'y suis aller en <vocab-word v-bind="vocab.winter"/>, la <vocab-word v-bind="vocab.night"/> du 31 Décembre
+        exactement et s'y tenait le magnifique festival des lumières.<br/>
+        Des images valent 1000 <vocab-word v-bind="vocab.word"/> comme on dit, donc je vous laisse avec quelques photos
+        que j'ai prise durant ma visite.<br/>
         Pour la petite anecdote, il faisait -12°C (ressenti -15), j'ai donc du supprimer 3/4 de mes photos pour cause de
-        tremblements dûs au froid 😅.
-      </p>
+        tremblements dûs au froid 😅.</p>
 
+      <span class="text-caption">2021-01-05</span>
 
+      <v-divider class="ma-16"/>
+
+      <v-row class="mb-16">
+        <vocab-list :vocab="vocab"/>
+      </v-row>
       <p></p>
       <p></p>
     </v-col>
@@ -24,14 +31,19 @@
 
 <script>
 import VocabWord from "../../VocabWord";
+import VocabList from "../../VocabList";
+
 export default {
   name: "FrGardenContent",
-  components: {VocabWord},
+  components: {VocabWord, VocabList},
   data() {
     return {
       vocab: {
         today: {word: "Aujourd'hui", korean: "오늘", phonetic: 'oneul'},
         plant: {word: "plantes", korean: "식물", phonetic: 'sigmul'},
+        winter: {word: "hiver", korean: "겨울", phonetic: 'gyeoul'},
+        night: {word: "nuit", korean: "밤", phonetic: 'bam'},
+        word: {word: "mots", korean: "단어", phonetic: 'daneo'},
       }
     }
   }

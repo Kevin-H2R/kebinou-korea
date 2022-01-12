@@ -19,7 +19,8 @@
       <v-row justify="center">
         <v-col cols="12" sm="6" md="4" lg="3">
           <address-card v-bind="{name: '삼맛호오떡', imageName: 'hotteok.jpg',
-                        price: '3000 (~2€)', phone: '02-2299-3396', naverLink: 'http://naver.me/GgeusipV'}"/>
+                        prices: [{category: 'Nutella', amount: '3000 (~2€)'}],
+                         phone: '02-2299-3396', naverLink: 'http://naver.me/GgeusipV'}"/>
         </v-col>
       </v-row>
     </div>

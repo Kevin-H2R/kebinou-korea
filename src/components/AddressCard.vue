@@ -6,9 +6,10 @@
   <v-divider class="mx-4"/>
   <v-card-text>
     <v-container>
-      <v-row class="my-5">
-        <v-icon class="mr-5">mdi-currency-krw</v-icon>
-        <div>{{ price }}</div>
+      <v-row class="my-5" v-for="(price, index) in prices" :key="name + '_price_' + index">
+        <div class="text-decoration-underline">{{ price.category }}:</div>
+        <v-icon class="ml-5 mr-2">mdi-currency-krw</v-icon>
+        <div>{{ price.amount }}</div>
       </v-row>
       <v-row class="my-5">
         <v-icon class="mr-5">mdi-phone-classic</v-icon>
@@ -41,8 +42,8 @@ export default {
       type: String,
       required: true
     },
-    price: {
-      type: String,
+    prices: {
+      type: Array,
       required: true
     },
     phone: {
