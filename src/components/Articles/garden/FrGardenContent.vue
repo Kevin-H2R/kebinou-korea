@@ -16,6 +16,21 @@
         Pour la petite anecdote, il faisait -12°C (ressenti -15), j'ai donc du supprimer 3/4 de mes photos pour cause de
         tremblements dûs au froid 😅.</p>
 
+      <v-row class="flex-wrap mt-16" justify="center">
+        <v-col cols="12" sm="6" md="4">
+          <v-img src="@/assets/articles/garden/arrow.jpg" alt="Cupidon de wish" class="my-1"/>
+          <v-img src="@/assets/articles/garden/fromTheBridge.jpg" alt="Vue du pont" class="my-1"/>
+          <v-img src="@/assets/articles/garden/templeOnFrozenLake.jpg" alt="Temple sur lac gelé" class="my-1"/>
+        </v-col>
+        <v-col cols="12" sm="6" md="4">
+          <v-img src="@/assets/articles/garden/frozenLake.jpg" alt="reflet des lumières sur le lac gelé" class="my-1"/>
+        </v-col>
+        <v-col cols="12" sm="6" md="4">
+          <v-img src="@/assets/articles/garden/meAndHearts.jpg" alt="C'est un mur porteur ca" class="my-1"/>
+          <v-img src="@/assets/articles/garden/lotsOfLights.jpg" alt="Beaucoup de lumière" class="my-1"/>
+        </v-col>
+      </v-row>
+
       <span class="text-caption">2021-01-05</span>
 
       <v-divider class="ma-16"/>
@@ -23,8 +38,6 @@
       <v-row class="mb-16">
         <vocab-list :vocab="vocab"/>
       </v-row>
-      <p></p>
-      <p></p>
     </v-col>
   </v-row>
 </template>
