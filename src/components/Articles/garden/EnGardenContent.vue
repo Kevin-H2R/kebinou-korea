@@ -30,9 +30,9 @@
         </v-col>
       </v-row>
 
-      <span><i>Other pics to come, just drowning under work these days 😭</i></span>
+      <div class="text-caption my-16"><i>Other pics to come, just drowning under work these days 😭</i></div>
 
-      <span class="text-caption">2021-01-05</span>
+      <div class="text-caption">2021-01-13</div>
 
       <v-divider class="ma-16"/>
 

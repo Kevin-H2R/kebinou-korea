@@ -5,7 +5,7 @@
       <v-row justify="center" align="center">
         <h1 class="article__title font-weight-light">{{ $t('gardenTitle') }}</h1>
       </v-row>
-      <v-row justify="center"><span class="text-caption">2021-01-05</span></v-row>
+      <v-row justify="center"><span class="text-caption">2021-01-13</span></v-row>
       <v-row>
         <v-img src="@/assets/articles/garden/cover2.jpg" height="65vh"
                alt="Lac gelé dans le jardin du Matin Calme"/>

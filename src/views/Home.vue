@@ -125,7 +125,7 @@ export default {
     return {
       articles: [
         {title: this.$t('gardenTitle'), imageName: 'articles/garden/lotsOfLights.jpg', link:'/garden',
-          cols: 12, sm: 10, md: 4, lg: 4,  categories: ['activities', 'spot'], date: '2021-01-05'},
+          cols: 12, sm: 10, md: 4, lg: 4,  categories: ['activities', 'spot'], date: '2021-01-13'},
         {title: this.$t('mbcTitle'), imageName: 'articles/mbc/cover.jpg', link:'/tv-show',
           cols: 12, sm: 10, md: 4, lg: 4,  categories: ['activities'], date: '2021-12-29'},
         {title: 'Nutella 호떡 (Hotteok)', imageName: 'articles/hotteok/cover.jpg', link:'/hotteok',
