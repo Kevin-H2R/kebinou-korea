@@ -3,18 +3,17 @@
     <v-col cols="12" sm="10" md="8" lg="6">
       <p class="article__p"><vocab-word v-bind="vocab.today"/> I bring you with me in a <b>mesmerizing</b> place.
         And I'n not even exaggerating! The Morning Calm Garden is an arboretum located at a few dozen of kilometers of
-        Seoul, in 가평 (Gapyeong). J'y suis allé en train/bus, 2H15 depuis Hongdae, il y a également l'ITX (train express) qui ne
-        met qu'environ 1h à y aller mais il faut réserver sa place à l'avance.</p>
+        Seoul, in 가평 (Gapyeong). I went there by bus + train, 2H15mins travel from Hongdae,
+        you also have the option to take the ITX (express train) which takes ~1h to go there, but you gotta book your ticket in advance.</p>
 
-      <p>En résumé: 30000m² de superficie, 5000 types de <vocab-word v-bind="vocab.plant"/>, 20 sections différentes,
-        600000 visiteurs / an. Il y a de quoi faire !<br/>
-        Il s'y déroule un festival différent lors de chaque saison, donc vous pouvez y allez quand vous voulez. Moi
-        j'y suis aller en <vocab-word v-bind="vocab.winter"/>, la <vocab-word v-bind="vocab.night"/> du 31 Décembre
-        exactement et s'y tenait le magnifique festival des lumières.<br/>
-        Des images valent 1000 <vocab-word v-bind="vocab.word"/> comme on dit, donc je vous laisse avec quelques photos
-        que j'ai prise durant ma visite.<br/>
-        Pour la petite anecdote, il faisait -12°C (ressenti -15), j'ai donc du supprimer 3/4 de mes photos pour cause de
-        tremblements dûs au froid 😅.</p>
+      <p>In short: 30000m² area, 5000 types of <vocab-word v-bind="vocab.plant"/>, 20 different sections,
+        600000 visitors / year. Plenty to see !<br/>
+        There's a different festival at each season so you can go there all year long. I went there in
+        <vocab-word v-bind="vocab.winter"/>, on the night of the 31st of December and at this time was held the
+        wonderful lights festival.<br/>
+        Images are worth 1000 <vocab-word v-bind="vocab.word"/> as we say, so I let you with some pictures I took there.<br/>
+        Funny thing is, it was -12°C (felt as -15), so I had to delete 3/4 of the photos I took because I was
+        shivering way too much  😅.</p>
 
       <v-row class="flex-wrap mt-16" justify="center">
         <v-col cols="12" sm="6" md="4">
@@ -30,6 +29,8 @@
           <v-img src="@/assets/articles/garden/lotsOfLights.jpg" alt="Beaucoup de lumière" class="my-1"/>
         </v-col>
       </v-row>
+
+      <span><i>Other pics to come, just drowning under work these days 😭</i></span>
 
       <span class="text-caption">2021-01-05</span>
 

@@ -30,6 +30,7 @@
           <v-img src="@/assets/articles/garden/lotsOfLights.jpg" alt="Beaucoup de lumière" class="my-1"/>
         </v-col>
       </v-row>
+      <span><i>D'autres photos arrivent, je prends un peu de temps parce que je croule sous le boulot en ce moment 😭</i></span>
 
       <span class="text-caption">2021-01-05</span>
 
